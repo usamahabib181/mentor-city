@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Family Open Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Mentor City</title>
+  </head>
+  <body>
+    <!-- Top bar starts -->
+    <header class="top-bar">
+      <div class="top-bar__logo">
+        <img src="img/main-logo.png" alt="main-logo" class="top-bar__img" />
+      </div>
+
+      <div class="top-bar__toggler">
+        <a href="#" class="top-bar__bars">
+          <img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+        </a>
+
+        <a href="#" class="top-bar__close">
+          <img
+            src="img/icons/topbar_icons/top-bar-close.svg"
+            alt="close-icon"
+          />
+        </a>
+      </div>
+
+      <div class="top-bar__side">
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-message.svg"
+            alt="message-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-notification.svg"
+            alt="notification-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__btn-box">
+          <a href="" class="button button--available">
+            <img
+              src="img/icons/topbar_icons/top-bar-available.svg"
+              alt="available-icon"
+              class="button__status"
+            />
+
+            <span>Available</span>
+          </a>
+          <div class="dropdown-box">
+            <p class="dropdown-box__title">Set Your Availablity</p>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-available.svg"
+                alt="available-icon"
+                class=""
+              />
+              Available <i class="fas fa-check"></i>
+            </div>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-unavailable.svg"
+                alt="unavailable-icon"
+                class=""
+              />
+              Unavailable
+            </div>
+            <a href="" class="dropdown-box__settings">Advanced Settings</a>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile__avatar-box">
+            <img
+              src="img/icons/topbar_icons/top-bar-person.png"
+              alt="profile-avatar"
+              class="profile__avatar"
+            />
+          </div>
+          <div class="profile__desc">
+            <h4 class="profile__title">Martin Blum</h4>
+            <p class="profile__detail">Member</p>
+          </div>
+          <div class="profile__arrow">
+            <img
+              src="img/icons/down-arrow.svg"
+              alt="down-arrow-icon"
+              class="profile__arrow-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Top bar ends -->
+
+    <!-- Side bar starts -->
+    <aside class="side-bar">
+      <ul class="side-bar__list">
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link active">
+            <img
+              src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+              class="sidebar__link-icon"
+              alt="dashboard-icon"
+            />
+            Dashboard
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-connection.svg"
+              class="sidebar__link-icon"
+              alt="connection-icon"
+            />
+            Connections
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentors.svg"
+              class="sidebar__link-icon"
+              alt="mentors-icon"
+            />
+            Mentors
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentees.svg"
+              class="sidebar__link-icon"
+              alt="mentee-icon"
+            />
+            Mentees
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-group.svg"
+              class="sidebar__link-icon"
+              alt="gorup-icon"
+            />
+            Groups
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-awards.svg"
+              class="sidebar__link-icon"
+              alt="awadr-icon"
+            />
+            Awards
+          </a>
+        </li>
+      </ul>
+
+      <div class="side-bar__bottom">
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-courses.svg"
+                class="sidebar__link-icon"
+                alt="course-icon"
+              />
+              Courses
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-events.svg"
+                class="sidebar__link-icon"
+                alt="event-icon"
+              />
+              Events
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-resources.svg"
+                class="sidebar__link-icon"
+                alt="resource-icon"
+              />
+              Resources
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-discussion.svg"
+                class="sidebar__link-icon"
+                alt="discussion-icon"
+              />
+              Discussions
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link side-bar__link--app">
+              <img
+                src="img/icons/sidebar_icons/sidebar-phone.svg"
+                class="sidebar__link-icon"
+                alt="access-conn-icon"
+              />
+              Access Connections
+              <span>Get the app</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-helpline.svg"
+                class="sidebar__link-icon"
+                alt="helpline-icon"
+              />
+              Helpline
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Side bar ends -->
+
+    <!-- Main starts -->
+    <main class="main">
+      <div class="main__aside"></div>
+      <section class="main__primary">
+        <!-- First row -->
+        <div class="primary-container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="primary-container__tile">
+                <p>Profile</p>
+                <figure class="primary-container__tile-img">
+                  <img src="img/profile-img.png" alt="profile-image" />
+                </figure>
+                <p><span class="green">80%</span> Complete</p>
+                <div class="primary-container__btn-box">
+                  <a href="#" class="button button--outline">Edit</a>
+                  <a href="#" class="button button--outline">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="primary-container__tile primary-container__tile--1">
+                <p>
+                  Schedule Meetings
+                  <img
+                    src="img/icons/question-mark.svg"
+                    class="ml-1"
+                    alt="question-mark-icon"
+                  />
+                </p>
+                <figure class="primary-container__tile-img--1">
+                  <img src="img/icons/calendar.svg" alt="calender-icon" />
+                </figure>
+                <p>Upcoming <span class="blue">4 Meetings</span></p>
+                <div
+                  class="primary-container__btn-box primary-container__btn-box--1"
+                >
+                  <a href="#" class="button button--outline">Edit</a>
+                  <a href="#" class="button button--outline">New</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="primary-container__tile primary-container__tile--2">
+                <p>
+                  Meetings Availability
+                  <img
+                    src="img/icons/question-mark.svg"
+                    class="ml-1"
+                    alt="question-mark-icon"
+                  />
+                </p>
+                <div class="meeting-timebox">
+                  <p class="meeting-timebox__day gray">Mo, Tu, Th, Fr</p>
+                  <p class="meeting-timebox__time light-gray">
+                    7:00 AM - 10:00 PM
+                    <img
+                      src="img/icons/edit.svg"
+                      class="ml-4"
+                      alt="edit-icon"
+                    />
+                  </p>
+                  <p class="meeting-timebox__timezone">
+                    (UTC+01:00) Europe - London
+                  </p>
+                </div>
+                <div class="meeting-schedule">
+                  <p class="meeting-schedule__title">
+                    <span>
+                      Your Google Calendar is connected to Scheduler.
+                    </span>
+                    <img
+                      src="img/icons/question-mark.svg"
+                      class="mark-icon"
+                      alt="question-mark-icon"
+                    />
+                  </p>
+                </div>
+                <div class="primary-container__btn-box">
+                  <a href="#" class="button button--outline">Edit</a>
+                  <a href="#" class="button button--outline">New</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="primary-container__tile primary-container__tile--3">
+                <p>
+                  Profile Availability as
+                  <img
+                    src="img/icons/question-mark.svg"
+                    class="ml-1"
+                    alt="question-mark-icon"
+                  />
+                </p>
+                <div class="primary-container__tile-badge">
+                  <figure class="primary-container__tile-img--2">
+                    <img src="img/icons/person.svg" alt="mentor-icon" />
+                  </figure>
+                  <figure class="primary-container__tile-img--3">
+                    <img src="img/icons/cap.svg" alt="mentee-icon" />
+                  </figure>
+                </div>
+                <p class="gray">Mentor & Mentee</p>
+                <div
+                  class="primary-container__btn-box primary-container__btn-box--2"
+                >
+                  <a href="#" class="button button--outline">Change Settings</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row -->
+        <div class="secondary-container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="secondary-container__tile">
+                <figure class="secondary-container__tile-icon">
+                  <img
+                    src="img/icons/badge-awards.svg"
+                    alt="badge-award-icon"
+                  />
+                </figure>
+                <div class="secondary__tile-desc">
+                  <h1 class="secondary__tile-points">240</h1>
+                  <h5 class="secondary__tile-title">Awards Points</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="secondary-container__tile">
+                <figure class="secondary-container__tile-icon">
+                  <img
+                    src="img/icons/badge-connection.svg"
+                    alt="badge-connection-icon"
+                  />
+                </figure>
+                <div class="secondary__tile-desc">
+                  <h1 class="secondary__tile-points">19</h1>
+                  <h5 class="secondary__tile-title">Connections</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="secondary-container__tile">
+                <figure class="secondary-container__tile-icon">
+                  <img
+                    src="img/icons/badge-active-courses.svg"
+                    alt="active-course-icon"
+                  />
+                </figure>
+                <div class="secondary__tile-desc">
+                  <h1 class="secondary__tile-points">15</h1>
+                  <h5 class="secondary__tile-title">Active Courses</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="secondary-container__tile">
+                <figure class="secondary-container__tile-icon">
+                  <img
+                    src="img/icons/badge-groups.svg"
+                    alt="badge-group-icon"
+                  />
+                </figure>
+                <div class="secondary__tile-desc">
+                  <h1 class="secondary__tile-points">8</h1>
+                  <h5 class="secondary__tile-title">Groups</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third row -->
+        <div class="tertiary-container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="tertiary-container__tile">
+                <div class="tertiary-container__header">
+                  <h6 class="tertiary-container__title">
+                    My connections <span>(19)</span>
+                  </h6>
+                  <a href="#" class="tertiary-container__dropdown"
+                    >Active
+                    <img src="img/icons/down-arrow.svg" alt="down-arrow"
+                  /></a>
+                </div>
+                <ul class="tertiary-container__row-box">
+                  <li class="tertiary-container__row">
+                    <div class="tertiary-container__desc">
+                      <figure class="">
+                        <img
+                          src="img/connection-avatar-1.png"
+                          alt="connection-avatar-1"
+                        />
+                      </figure>
+                      <p class="tertiary-container_name">Maria Smith</p>
+                    </div>
+                    <a href="#" class="pill pill-blue">Mentor</a>
+                  </li>
+
+                  <li class="tertiary-container__row">
+                    <div class="tertiary-container__desc">
+                      <figure class="">
+                        <img
+                          src="img/connection-avatar-2.png"
+                          alt="connection-avatar-2"
+                        />
+                      </figure>
+                      <p class="tertiary-container_name">Mishi Tipu</p>
+                    </div>
+                    <a href="#" class="pill pill-light">Mentee</a>
+                  </li>
+
+                  <li class="tertiary-container__row">
+                    <div class="tertiary-container__desc">
+                      <figure class="">
+                        <img
+                          src="img/connection-avatar-3.png"
+                          alt="connection-avatar-3"
+                        />
+                      </figure>
+                      <p class="tertiary-container_name">Sven Blum</p>
+                    </div>
+                    <a href="#" class="pill pill-blue">Mentor</a>
+                  </li>
+                </ul>
+                <div class="tertiary-container__footer">
+                  <a href="#">View All ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="tertiary-container__tile">
+                <div class="tertiary-container__header">
+                  <h6 class="tertiary-container__title">Upcoming Meetings</h6>
+                </div>
+                <ul class="tertiary-container__row-box">
+                  <li class="tertiary-container__row">
+                    <div class="tertiary-container__desc">
+                      <figure class="">
+                        <img
+                          src="img/meeting-avatar-1.png"
+                          alt="meetin-avatar-1"
+                        />
+                      </figure>
+                      <div>
+                        <p class="tertiary-container_name">Maria Smith</p>
+                        <p class="tertiary-container_datetime">
+                          22 July <span>|</span> 4:00 pm
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="tertiary-container__row">
+                    <div class="tertiary-container__desc">
+                      <figure class="">
+                        <img
+                          src="img/meeting-avatar-2.png"
+                          alt="meetin-avatar-2"
+                        />
+                      </figure>
+                      <div>
+                        <p class="tertiary-container_name">Mishi Tipu</p>
+                        <p class="tertiary-container_datetime">
+                          22 July <span>|</span> 4:00 pm
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="tertiary-container__row">
+                    <div class="tertiary-container__desc">
+                      <figure class="">
+                        <img
+                          src="img/meeting-avatar-3.png"
+                          alt="meetin-avatar-3"
+                        />
+                      </figure>
+                      <div>
+                        <p class="tertiary-container_name">Sven Blum</p>
+                        <p class="tertiary-container_datetime">
+                          22 July <span>|</span> 4:00 pm
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="tertiary-container__footer">
+                  <a href="#">View All ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="tertiary-container__tile">
+                <div class="tertiary-container__header">
+                  <h6 class="tertiary-container__title">Widget 3</h6>
+                </div>
+                <div class="tertiary-container__footer">
+                  <a href="#">View All ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="tertiary-container__tile">
+                <div class="tertiary-container__header">
+                  <h6 class="tertiary-container__title">Widget 4</h6>
+                </div>
+                <div class="tertiary-container__footer">
+                  <a href="#">View All ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Main ends -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

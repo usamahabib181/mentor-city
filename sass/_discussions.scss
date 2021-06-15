@@ -1,0 +1,432 @@
+.discussions {
+  background: #fcfdfe;
+
+  &__container {
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $light-gray;
+  }
+
+  &__com-form {
+    border-radius: 0.8rem;
+    background: $body-bg;
+    padding: 2rem;
+    margin: 2rem 0;
+
+    h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: $dark-blue;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      color: $dark-blue;
+      font-size: 1.8rem;
+      max-width: 90%;
+    }
+
+    &:nth-child(2) {
+      padding-left: 5rem;
+    }
+
+    &:nth-child(2) > :last-child {
+      margin-top: 6rem;
+    }
+  }
+
+  &__foter {
+    display: flex;
+    margin-top: 2rem;
+
+    img {
+      margin: 0 1rem;
+      margin-left: 0;
+    }
+  }
+
+  &__members {
+    display: flex;
+
+    a {
+      font-size: 1.6rem;
+      color: $light-blue;
+    }
+  }
+
+  &__posts {
+    display: flex;
+
+    img {
+      margin-left: 2rem;
+    }
+
+    a {
+      font-size: 1.6rem;
+      color: $light-blue;
+    }
+  }
+
+  &__general {
+    margin-top: 3rem;
+    border: 1px solid $link-color;
+    @include card-style;
+
+    p {
+      font-size: 1.6rem;
+      max-width: 90%;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+  }
+
+  &__general-mem {
+    color: $link-color !important;
+  }
+
+  &__fall {
+    @include card-style;
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.discuss-box {
+  &__container {
+  }
+
+  &__header {
+    display: flex;
+
+    span {
+      font-size: 1.8rem;
+      color: $brown;
+      padding: 0 0.3rem;
+    }
+  }
+
+  &__tile-1 {
+    font-size: 1.4rem;
+    color: $link-color;
+    font-weight: 600;
+  }
+
+  &__tile-2 {
+    font-size: 1.4rem;
+    color: $light-gray;
+    font-weight: 600;
+  }
+
+  &__primary {
+    margin-top: 3rem;
+    @include card-style;
+    padding: 2rem;
+    padding-left: 7rem;
+
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: $dark-blue;
+    }
+  }
+
+  &__desc {
+    font-size: 1.6rem;
+    color: $light-gray;
+    margin: 2rem 0 1rem 0;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and(max-width:768px) {
+      align-items: baseline;
+      flex-direction: column;
+
+      .discuss-box__member {
+        margin-bottom: 1rem;
+      }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      flex-direction: row;
+    }
+  }
+
+  &__footer-1 {
+    @media only screen and(max-width:925px) {
+      align-items: baseline;
+      flex-direction: column;
+
+      .discuss-box__member {
+        margin-bottom: 1.5rem;
+      }
+    }
+    @media only screen and(max-width:768px) {
+      flex-direction: row;
+    }
+    @media only screen and(max-width:570px) {
+      align-items: baseline;
+      flex-direction: column;
+
+      .discuss-box__member {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
+  &__member {
+    display: flex;
+
+    a {
+      color: $link-color;
+      font-size: 1.6rem;
+      padding-left: 1rem;
+      display: flex;
+      align-self: center;
+    }
+  }
+
+  &__replies {
+    display: flex;
+
+    img {
+      padding-left: 2.5rem;
+    }
+  }
+
+  &__reply {
+    color: $light-gray !important;
+    font-size: 1.6rem;
+  }
+
+  &__secondary {
+    position: relative;
+    padding-left: 9rem;
+
+    .discuss-box__footer {
+      font-size: 1.6rem;
+      color: $light-blue;
+
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        flex-direction: row !important;
+      }
+
+      @media only screen and(max-width:768px) {
+        flex-direction: column;
+        align-items: baseline;
+      }
+    }
+  }
+
+  &__last-rep {
+    color: $light-blue;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  &__user {
+    color: $link-color;
+    font-size: 1.6rem;
+  }
+
+  &__new-disc {
+    font-size: 1.6rem;
+    color: $light-blue;
+  }
+
+  &__tertiary {
+    padding-left: 2rem;
+  }
+
+  &__rep {
+    color: $link-color !important;
+  }
+
+  &__user-name {
+    font-size: 1.6rem;
+    display: block;
+    margin: 1rem 0 3rem 0;
+  }
+}
+
+//discussion thresd-2
+
+.discuss-thread {
+  &__tile {
+    color: $link-color;
+  }
+
+  &__add-new-mem {
+    margin-top: 3rem;
+    color: $dark-blue;
+    font-size: 2.4rem;
+    font-weight: 600;
+    @include card-style;
+    box-shadow: none;
+    padding: 2.5rem;
+    min-height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__header {
+    h3 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: $dark-blue;
+    }
+  }
+
+  &__editd-time {
+    color: $light-blue;
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem 0;
+    display: block;
+    font-weight: normal;
+  }
+
+  &__user {
+    img {
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+
+    a {
+      font-size: 1.6rem;
+      color: $link-color;
+      font-weight: normal;
+    }
+  }
+
+  &__content {
+    p {
+      color: $dark-blue;
+      font-size: 1.6rem;
+      font-weight: normal;
+    }
+  }
+  &__tile-1 {
+    margin-bottom: 0.5rem;
+  }
+
+  &__tile-2 {
+    margin-bottom: 1rem;
+  }
+
+  &__disc {
+    font-weight: normal;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  &__like-reply {
+    font-size: 1.4rem;
+    color: $light-blue;
+    font-weight: normal;
+  }
+}
+
+.replies {
+  &__container {
+    padding: 2rem;
+    @include card-style;
+    box-shadow: none;
+  }
+
+  &__header {
+    color: $dark-blue;
+    font-weight: normal;
+    font-size: 2rem;
+    border-bottom: 2px solid #b8c1d9;
+    padding-bottom: 1.3rem;
+    display: block;
+  }
+
+  &__edited {
+    font-size: 1.4rem;
+    color: $light-blue;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+
+  &__user {
+    margin-bottom: 2.2rem;
+    display: flex;
+    align-items: center;
+    img {
+      width: 3.6rem;
+      height: 3.6rem;
+    }
+  }
+
+  &__user-name {
+    font-size: 1.6rem;
+    color: $link-color;
+    margin-left: 1rem;
+  }
+
+  &__content {
+    p {
+      color: $dark-blue;
+      font-size: 1.8rem;
+      font-weight: normal;
+    }
+  }
+
+  &__foter {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__likes-box {
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: $link-color;
+  }
+
+  &__reply-box {
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: $link-color;
+  }
+
+  &__new-user {
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+}
+
+.explamation-mark {
+  position: absolute;
+  left: 4rem;
+}
+
+.button--blue--font {
+  font-size: 1.6rem;
+}
+
+.button-reply {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 0;
+}

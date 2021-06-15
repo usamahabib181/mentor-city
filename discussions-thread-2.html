@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Family Open Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Mentor City</title>
+  </head>
+  <body>
+    <!-- Top bar starts -->
+    <header class="top-bar">
+      <div class="top-bar__logo">
+        <img src="img/main-logo.png" alt="main-logo" class="top-bar__img" />
+      </div>
+
+      <div class="top-bar__toggler">
+        <a href="#" class="top-bar__bars">
+          <img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+        </a>
+
+        <a href="#" class="top-bar__close">
+          <img
+            src="img/icons/topbar_icons/top-bar-close.svg"
+            alt="close-icon"
+          />
+        </a>
+      </div>
+
+      <div class="top-bar__side">
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-message.svg"
+            alt="message-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-notification.svg"
+            alt="notification-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__btn-box">
+          <a href="" class="button button--available">
+            <img
+              src="img/icons/topbar_icons/top-bar-available.svg"
+              alt="available-icon"
+              class="button__status"
+            />
+
+            <span>Available</span>
+          </a>
+          <div class="dropdown-box">
+            <p class="dropdown-box__title">Set Your Availablity</p>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-available.svg"
+                alt="available-icon"
+                class=""
+              />
+              Available <i class="fas fa-check"></i>
+            </div>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-unavailable.svg"
+                alt="unavailable-icon"
+                class=""
+              />
+              Unavailable
+            </div>
+            <a href="" class="dropdown-box__settings">Advanced Settings</a>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile__avatar-box">
+            <img
+              src="img/icons/topbar_icons/top-bar-person.png"
+              alt="profile-avatar"
+              class="profile__avatar"
+            />
+          </div>
+          <div class="profile__desc">
+            <h4 class="profile__title">Martin Blum</h4>
+            <p class="profile__detail">Member</p>
+          </div>
+          <div class="profile__arrow">
+            <img
+              src="img/icons/down-arrow.svg"
+              alt="down-arrow-icon"
+              class="profile__arrow-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Top bar ends -->
+
+    <!-- Side bar starts -->
+    <aside class="side-bar">
+      <ul class="side-bar__list">
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+              class="sidebar__link-icon"
+              alt="dashboard-icon"
+            />
+            Dashboard
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-connection.svg"
+              class="sidebar__link-icon"
+              alt="connection-icon"
+            />
+            Connections
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentors.svg"
+              class="sidebar__link-icon"
+              alt="mentors-icon"
+            />
+            Mentors
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentees.svg"
+              class="sidebar__link-icon"
+              alt="mentee-icon"
+            />
+            Mentees
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-group.svg"
+              class="sidebar__link-icon"
+              alt="gorup-icon"
+            />
+            Groups
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-awards.svg"
+              class="sidebar__link-icon"
+              alt="awadr-icon"
+            />
+            Awards
+          </a>
+        </li>
+      </ul>
+
+      <div class="side-bar__bottom">
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-courses.svg"
+                class="sidebar__link-icon"
+                alt="course-icon"
+              />
+              Courses
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-events.svg"
+                class="sidebar__link-icon"
+                alt="event-icon"
+              />
+              Events
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-resources.svg"
+                class="sidebar__link-icon"
+                alt="resource-icon"
+              />
+              Resources
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-discussion.svg"
+                class="sidebar__link-icon"
+                alt="discussion-icon"
+              />
+              Discussions
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link side-bar__link--app">
+              <img
+                src="img/icons/sidebar_icons/sidebar-phone.svg"
+                class="sidebar__link-icon"
+                alt="access-conn-icon"
+              />
+              Access Connections
+              <span>Get the app</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link active">
+              <img
+                src="img/icons/sidebar_icons/sidebar-helpline.svg"
+                class="sidebar__link-icon"
+                alt="helpline-icon"
+              />
+              Helpline
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Side bar ends -->
+
+    <!-- Main starts -->
+    <main class="main">
+      <div class="main__aside"></div>
+      <section class="main__primary discuss-box">
+        <div class="discuss-box__container discuss-thread">
+          <div class="discuss-box__header">
+            <a href="#" class="discuss-box__tile-1"> Discussion</a>
+            <span> / </span>
+            <a href="#" class="discuss-box__tile-2 discuss-thread__tile">
+              General</a
+            >
+            <span> / </span>
+            <a href="#" class="discuss-box__tile-2"> I need help</a>
+          </div>
+          <div class="discuss-thread__add-new-mem">
+            <div class="discuss-thread__header">
+              <h3>I need some help with adding new members</h3>
+              <span class="discuss-thread__editd-time">Edited 12 days ago</span>
+              <div class="discuss-thread__user">
+                <img
+                  src="./img/icons/discussions_icons/discussion-member-icon.svg"
+                  alt="discus-thread-mem"
+                />
+                <a href="#">@tom.mark</a>
+              </div>
+            </div>
+            <div class="discuss-thread__main-content">
+              <div class="discuss-thread__content">
+                <p class="discuss-thread__tile-1">Hi</p>
+                <p class="discuss-thread__tile-2">Hope you are well!</p>
+                <p class="discuss-thread__disc">
+                  Once you have signed up, find me and offer to be a mentor to
+                  me. This will establish a connection in the system between you
+                  and I. That will make it easy for us to communicate here. We
+                  will record the students who you are mentoring as plan items.
+                  This will also give you chance to record and share an overview
+                  of your sessions with me as screenshots.
+                </p>
+              </div>
+              <div class="discuss-thread__footer">
+                <span
+                  ><a href="#" class="discuss-thread__like-reply"
+                    >2 likes, 4 replies</a
+                  ></span
+                >
+                <a href="#" class="like-icon">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.74923 20.0003H17.5643C17.8077 20.0006 18.0431 19.915 18.2277 19.7591C18.4124 19.6031 18.534 19.3871 18.5706 19.1504L19.9529 10.1718C19.9749 10.0294 19.9653 9.8839 19.9248 9.74542C19.8843 9.60695 19.8139 9.47872 19.7183 9.36952C19.6227 9.26031 19.5043 9.17272 19.3711 9.11274C19.2379 9.05276 19.0931 9.0218 18.9466 9.02199H13.2444C13.1019 9.02269 12.9608 8.99392 12.8304 8.93754C12.6999 8.88116 12.583 8.79843 12.4871 8.69472C12.3913 8.59101 12.3187 8.46864 12.274 8.33555C12.2294 8.20245 12.2137 8.06161 12.2279 7.92216C12.5633 4.46269 11.9738 2.65296 10.5609 2.14304L6.97285 10.4018C6.92028 10.5218 6.84431 10.6305 6.74923 10.7217V20.0003ZM4.71633 20.0003V11.0017H3.04935C2.77977 11.0017 2.52123 11.107 2.33061 11.2945C2.13999 11.482 2.0329 11.7364 2.0329 12.0015V19.0005C2.0329 19.2656 2.13999 19.52 2.33061 19.7075C2.52123 19.895 2.77977 20.0003 3.04935 20.0003H4.71633ZM14.332 7.02229H18.9466C19.3861 7.02173 19.8205 7.1146 20.22 7.29455C20.6196 7.4745 20.9749 7.73727 21.2616 8.06488C21.5483 8.39248 21.7597 8.77717 21.8812 9.1926C22.0026 9.60803 22.0314 10.0444 21.9655 10.4718L20.573 19.4504C20.4637 20.1588 20.1003 20.8053 19.5484 21.273C18.9965 21.7407 18.2927 21.9986 17.5643 22H3.04935C2.24061 22 1.465 21.684 0.893135 21.1215C0.32127 20.5589 0 19.796 0 19.0005V12.0015C0 11.206 0.32127 10.4431 0.893135 9.88054C1.465 9.31801 2.24061 9.00199 3.04935 9.00199H5.36686L9.02608 0.603278C9.11042 0.411264 9.25386 0.250104 9.4362 0.142486C9.61854 0.0348685 9.83061 -0.0137868 10.0425 0.00336974C13.1224 0.253331 14.5149 2.74295 14.332 7.02229Z"
+                      fill="#556182"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="button-reply">
+            <a href="#" class="button--blue">Reply</a>
+          </div>
+          <div class="replies__container">
+            <div class="replies__header">
+              <h3>4 Replies</h3>
+            </div>
+            <div class="replies__edited">Edited 3 weeks ago</div>
+            <div class="replies__user">
+              <img
+                src="./img/icons/discussions_icons/discussion-member-icon.svg"
+                alt="replies-user-icon"
+              />
+              <a href="#" class="replies__user-name">@sam123</a>
+            </div>
+            <div class="replies__content">
+              <p>Hi Tom.</p>
+              <p>
+                I can tell this from my past experience that you need to
+                register first.
+              </p>
+            </div>
+            <div class="replies__foter">
+              <div class="replies__likes-box">
+                <img src="./img/icons/like-icon.svg" alt="reply-like-icon" />
+                <a href="#">2</a>
+              </div>
+              <div class="replies__reply-box">
+                <img
+                  src="./img/icons/discussions_icons/discussion-message-icon.svg"
+                  alt="reply-mess-icon"
+                />
+                <a href="#">Reply</a>
+              </div>
+            </div>
+          </div>
+          <div class="replies__container replies__new-user">
+            <div class="replies__edited">Edited 4 weeks ago</div>
+            <div class="replies__user">
+              <img
+                src="./img/icons/discussions_icons/discussion-member-icon.svg"
+                alt="replies-user-icon"
+              />
+              <a href="#" class="replies__user-name">@sam123</a>
+            </div>
+            <div class="replies__content">
+              <p>Thank you Sam</p>
+            </div>
+            <div class="replies__foter">
+              <div class="replies__likes-box">
+                <img src="./img/icons/like-icon.svg" alt="reply-like-icon" />
+                <a href="#">2</a>
+              </div>
+              <div class="replies__reply-box">
+                <img
+                  src="./img/icons/discussions_icons/discussion-message-icon.svg"
+                  alt="reply-mess-icon"
+                />
+                <a href="#">Reply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Main ends -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

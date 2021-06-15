@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Family Open Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Mentor City</title>
+  </head>
+  <body>
+    <!-- Top bar starts -->
+    <header class="top-bar">
+      <div class="top-bar__logo">
+        <img src="img/main-logo.png" alt="main-logo" class="top-bar__img" />
+      </div>
+
+      <div class="top-bar__toggler">
+        <a href="#" class="top-bar__bars">
+          <img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+        </a>
+
+        <a href="#" class="top-bar__close">
+          <img
+            src="img/icons/topbar_icons/top-bar-close.svg"
+            alt="close-icon"
+          />
+        </a>
+      </div>
+
+      <div class="top-bar__side">
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-message.svg"
+            alt="message-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-notification.svg"
+            alt="notification-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__btn-box">
+          <a href="" class="button button--available">
+            <img
+              src="img/icons/topbar_icons/top-bar-available.svg"
+              alt="available-icon"
+              class="button__status"
+            />
+
+            <span>Available</span>
+          </a>
+          <div class="dropdown-box">
+            <p class="dropdown-box__title">Set Your Availablity</p>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-available.svg"
+                alt="available-icon"
+                class=""
+              />
+              Available <i class="fas fa-check"></i>
+            </div>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-unavailable.svg"
+                alt="unavailable-icon"
+                class=""
+              />
+              Unavailable
+            </div>
+            <a href="" class="dropdown-box__settings">Advanced Settings</a>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile__avatar-box">
+            <img
+              src="img/icons/topbar_icons/top-bar-person.png"
+              alt="profile-avatar"
+              class="profile__avatar"
+            />
+          </div>
+          <div class="profile__desc">
+            <h4 class="profile__title">Martin Blum</h4>
+            <p class="profile__detail">Member</p>
+          </div>
+          <div class="profile__arrow">
+            <img
+              src="img/icons/down-arrow.svg"
+              alt="down-arrow-icon"
+              class="profile__arrow-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Top bar ends -->
+
+    <!-- Side bar starts -->
+    <aside class="side-bar">
+      <ul class="side-bar__list">
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link ">
+            <img
+              src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+              class="sidebar__link-icon"
+              alt="dashboard-icon"
+            />
+            Dashboard
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-connection.svg"
+              class="sidebar__link-icon"
+              alt="connection-icon"
+            />
+            Connections
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentors.svg"
+              class="sidebar__link-icon"
+              alt="mentors-icon"
+            />
+            Mentors
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentees.svg"
+              class="sidebar__link-icon"
+              alt="mentee-icon"
+            />
+            Mentees
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-group.svg"
+              class="sidebar__link-icon"
+              alt="gorup-icon"
+            />
+            Groups
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link active">
+            <img
+              src="img/icons/sidebar_icons/sidebar-awards.svg"
+              class="sidebar__link-icon"
+              alt="awadr-icon"
+            />
+            Awards
+          </a>
+        </li>
+      </ul>
+
+      <div class="side-bar__bottom">
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-courses.svg"
+                class="sidebar__link-icon"
+                alt="course-icon"
+              />
+              Courses
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-events.svg"
+                class="sidebar__link-icon"
+                alt="event-icon"
+              />
+              Events
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-resources.svg"
+                class="sidebar__link-icon"
+                alt="resource-icon"
+              />
+              Resources
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-discussion.svg"
+                class="sidebar__link-icon"
+                alt="discussion-icon"
+              />
+              Discussions
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link side-bar__link--app">
+              <img
+                src="img/icons/sidebar_icons/sidebar-phone.svg"
+                class="sidebar__link-icon"
+                alt="access-conn-icon"
+              />
+              Access Connections
+              <span>Get the app</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-helpline.svg"
+                class="sidebar__link-icon"
+                alt="helpline-icon"
+              />
+              Helpline
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Side bar ends -->
+
+    <!-- Main starts -->
+    <main class="main">
+      <div class="main__aside"></div>
+      <section class="main__primary awards upcoming">
+        <div class="box-tabs">
+            <ul class="nav" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="upcoming-tab" data-toggle="pill" href="#upcoming" role="tab" aria-controls="pills-upcoming" aria-selected="false">Upcoming</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="booked-tab" data-toggle="pill" href="#booked" role="tab" aria-controls="pills-booked" aria-selected="false">Booked</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="archived-tab" data-toggle="pill" href="#archived" role="tab" aria-controls="pills-archived" aria-selected="false">Archived</a>
+                  </li>
+              </ul>
+        </div>
+        <!-- upcoming -->
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="upcoming" role="tabpanel" aria-labelledby="upcoming-tab">
+                <div class="event-upcoming">
+                    <div class="event-upcoming__cards">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="event-upcoming__card">
+                                        <div class="event-upcoming__date-box">
+                                            <ul>
+                                                <li class="event-upcoming__day">Saturday</li>
+                                                <li class="event-upcoming__date">29</li>
+                                                <li class="event-upcoming__month">Sep 2020</li>
+                                            </ul>
+                                        </div>
+                                        <div class="event-upcoming__card-desc">
+                                            <h2 class="event-upcoming__title">Graduate Program in Public</h2>
+                                            <p class="event-upcoming__content">Join us to learn how mentoring can help you progress throughout your career. </p>
+                                            <div class="event-upcoming__readmore">
+                                                <p>2 day event</p>
+                                                <a href="#">Read More ›</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="event-upcoming__card">
+                                        <div class="event-upcoming__date-box event-upcoming__card-bg-1">
+                                            <ul>
+                                                <li class="event-upcoming__day">Saturday</li>
+                                                <li class="event-upcoming__date">29</li>
+                                                <li class="event-upcoming__month">Sep 2020</li>
+                                            </ul>
+                                        </div>
+                                        <div class="event-upcoming__card-desc">
+                                            <h2 class="event-upcoming__title">Graduate Program in Public</h2>
+                                            <p class="event-upcoming__content">Join us to learn how mentoring can help you progress throughout your career. </p>
+                                            <div class="event-upcoming__readmore">
+                                                <p>2 day event</p>
+                                                <a href="#">Read More ›</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="event-upcoming__card">
+                                        <div class="event-upcoming__date-box event-upcoming__card-bg-2">
+                                            <ul>
+                                                <li class="event-upcoming__day">Saturday</li>
+                                                <li class="event-upcoming__date">29</li>
+                                                <li class="event-upcoming__month">Sep 2020</li>
+                                            </ul>
+                                        </div>
+                                        <div class="event-upcoming__card-desc">
+                                            <h2 class="event-upcoming__title">Graduate Program in Public</h2>
+                                            <p class="event-upcoming__content">Join us to learn how mentoring can help you progress throughout your career. </p>
+                                            <div class="event-upcoming__readmore">
+                                                <p>2 day event</p>
+                                                <a href="#">Read More ›</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- event-booked -->
+            <div class="tab-pane fade" id="booked" role="tabpanel" aria-labelledby="booked-tab">
+                <div class="event-booked">
+                    <div class="event-upcoming__cards">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="event-upcoming__card">
+                                    <div class="event-upcoming__date-box event-booked__bg">
+                                        <ul>
+                                            <li class="event-upcoming__day">Saturday</li>
+                                            <li class="event-upcoming__date">29</li>
+                                            <li class="event-upcoming__month">Sep 2020</li>
+                                        </ul>
+                                    </div>
+                                    <div class="event-upcoming__card-desc">
+                                        <h2 class="event-upcoming__title">Graduate Program in Public</h2>
+                                        <p class="event-upcoming__content">Join us to learn how mentoring can help you progress throughout your career. </p>
+                                        <div class="event-upcoming__readmore">
+                                            <p>2 day event</p>
+                                            <a href="#">Read More ›</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="event-upcoming__card">
+                                    <div class="event-upcoming__date-box event-booked__bg">
+                                        <ul>
+                                            <li class="event-upcoming__day">Saturday</li>
+                                            <li class="event-upcoming__date">29</li>
+                                            <li class="event-upcoming__month">Sep 2020</li>
+                                        </ul>
+                                    </div>
+                                    <div class="event-upcoming__card-desc">
+                                        <h2 class="event-upcoming__title">Graduate Program in Public</h2>
+                                        <p class="event-upcoming__content">Join us to learn how mentoring can help you progress throughout your career. </p>
+                                        <div class="event-upcoming__readmore">
+                                            <p>2 day event</p>
+                                            <a href="#">Read More ›</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+                </div>
+            </div>
+            <!-- archived -->
+            <div class="tab-pane fade" id="archived" role="tabpanel" aria-labelledby="archived-tab">
+                <div class="event-archived">
+                    <p>Archived</p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+ 
+
+        </div>
+      </section>
+    </main>
+    <!-- Main ends -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

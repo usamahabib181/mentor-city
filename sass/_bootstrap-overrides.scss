@@ -1,0 +1,140 @@
+.nav-tabs {
+  border: 0;
+
+  .nav-link {
+    border: 0;
+  }
+}
+
+.editprofile__menu {
+  .nav-link.active {
+    background: #fafafa;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+}
+
+.setting__tabs-menu {
+  .nav-link.active {
+    color: $brown;
+    font-weight: bold;
+    border-bottom: 2px solid $brown;
+  }
+}
+
+.group-call__chat-menu {
+  .nav-link.active {
+    color: $brown;
+    font-weight: bold;
+    border-bottom: 2px solid $brown;
+    background-color: transparent;
+  }
+}
+
+.modal-backdrop {
+  z-index: 1;
+  background-color: rgba(42, 52, 80, 0.85);
+}
+
+.modal-backdrop.show {
+  opacity: 1;
+}
+
+.modal {
+  top: 7.1rem;
+  left: 23.8rem;
+  width: calc(100vw - 23.8rem);
+  height: calc(100vh - 7.1rem);
+  padding-right: 0;
+  z-index: 100;
+
+  @media only screen and (max-width: 768px) {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+}
+
+.modal-dialog {
+  margin: 1.75rem 3rem 0 3rem;
+  max-width: 60rem;
+  box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.05);
+  border-radius: 0.8rem;
+}
+.modal-dialog--1 {
+  margin: 6rem auto;
+  max-width: 50rem;
+}
+
+.modal-main--1 {
+  display: flex;
+  justify-content: center;
+  border: transparent !important;
+}
+
+.modal-dialog--2 {
+  max-width: 43.1rem;
+}
+
+.modal-content {
+  // margin: 0.5rem;
+  border: 1rem solid #f6f7f9;
+  border-radius: 0.8rem;
+}
+
+.modal-title {
+  color: $light-gray;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.custom-switch .custom-control-label::before {
+  width: 3rem;
+  height: 1.2rem;
+  border-radius: 2rem;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+  border-color: #ddd;
+}
+
+.custom-switch .custom-control-label::after {
+  top: calc(-0.4rem + 2px);
+  left: calc(-2.5rem + 2px);
+  width: calc(2.5rem - 4px);
+  height: calc(2.5rem - 4px);
+  border-radius: 50%;
+}
+
+.custom-switch .custom-control-label::before {
+  width: 3.5rem;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #b8c1d9;
+  background-color: #b8c1d9;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background: #4282d9;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  -webkit-transform: translateX(1.5rem);
+  transform: translateX(1.5rem);
+}

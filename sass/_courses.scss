@@ -1,0 +1,108 @@
+.courses {
+  &__container {
+  }
+
+  &__header {
+    margin-top: 2rem;
+    position: relative;
+
+    @media only screen and(max-width:768px) {
+      display: flex;
+    }
+
+    input {
+      width: 60%;
+      height: 3.2rem;
+      padding-left: 3rem;
+      font-size: 1.3rem;
+
+      @media only screen and(max-width:768px) {
+        padding-left: 4rem;
+      }
+    }
+
+    img {
+      position: absolute;
+      left: 1rem;
+      top: 0.8rem;
+      color: #8b94ae;
+
+      @media only screen and(max-width:768px) {
+        top: 0.5rem;
+      }
+    }
+
+    a {
+      margin-left: 1rem;
+    }
+  }
+
+  &__title {
+    margin: 2.5rem 0;
+    color: $light-gray;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &__cards {
+  }
+
+  &__card {
+    @include card-style;
+    position: relative;
+
+    @media only screen and(max-width:1000px) {
+      margin-bottom: 3rem;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 0.6rem;
+    }
+  }
+
+  &__time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: $sidebar-bg;
+    background: rgba($color: #ffffff, $alpha: 0.5);
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+
+  &__card-desc {
+    padding: 1.5rem;
+    h3 {
+      margin: 2rem 0;
+      font-size: 2rem;
+      font-weight: 700;
+      color: $light-gray;
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: normal;
+      color: $light-gray;
+      margin-bottom: 4.5rem;
+    }
+
+    a {
+      color: $blue;
+      font-size: 1.6rem;
+    }
+  }
+
+  &__view-all {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+
+    a {
+      font-size: 1.6rem;
+      color: $blue;
+    }
+  }
+}

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Font Family Open Sans -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome Css -->
+		<link rel="stylesheet" href="css/font-awesome/css/all.css" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Mentor City</title>
+	</head>
+	<body>
+		<!-- Top bar starts -->
+		<header class="top-bar">
+			<div class="top-bar__logo top-bar__logo--admin">
+				<img src="img/admin-logo.png" alt="main-logo" class="top-bar__img top-bar__img--admin" />
+			</div>
+
+			<div class="top-bar__toggler">
+				<a href="#" class="top-bar__bars">
+					<img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+				</a>
+
+				<a href="#" class="top-bar__close">
+					<img src="img/icons/topbar_icons/top-bar-close.svg" alt="close-icon" />
+				</a>
+			</div>
+
+			<div class="top-bar__side">
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-message.svg"
+						alt="message-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-notification.svg"
+						alt="notification-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__btn-box">
+					<a href="" class="button button--available">
+						<img
+							src="img/icons/topbar_icons/top-bar-available.svg"
+							alt="available-icon"
+							class="button__status"
+						/>
+
+						<span>Available</span>
+					</a>
+					<div class="dropdown-box">
+						<p class="dropdown-box__title">Set Your Availablity</p>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-available.svg"
+								alt="available-icon"
+								class=""
+							/>
+							Available <i class="fas fa-check"></i>
+						</div>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-unavailable.svg"
+								alt="unavailable-icon"
+								class=""
+							/>
+							Unavailable
+						</div>
+						<a href="" class="dropdown-box__settings">Advanced Settings</a>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__avatar-box">
+						<img src="img/admin-avatar.png" alt="profile-avatar" class="profile__avatar" />
+					</div>
+					<div class="profile__desc">
+						<h4 class="profile__title">Maria Kahn</h4>
+						<p class="profile__detail">Admin</p>
+					</div>
+					<div class="profile__arrow">
+						<img src="img/icons/down-arrow.svg" alt="down-arrow-icon" class="profile__arrow-icon" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Top bar ends -->
+
+		<!-- Side bar starts -->
+		<aside class="side-bar">
+			<ul class="side-bar__list">
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+							class="sidebar__link-icon"
+							alt="dashboard-icon"
+						/>
+						Dashboard
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-connection.svg"
+							class="sidebar__link-icon"
+							alt="connection-icon"
+						/>
+						Connections
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentors.svg"
+							class="sidebar__link-icon"
+							alt="mentors-icon"
+						/>
+						Mentors
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentees.svg"
+							class="sidebar__link-icon"
+							alt="mentee-icon"
+						/>
+						Mentees
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-group.svg"
+							class="sidebar__link-icon"
+							alt="gorup-icon"
+						/>
+						Groups
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link active">
+						<img
+							src="img/icons/sidebar_icons/sidebar-member.svg"
+							class="sidebar__link-icon"
+							alt="awadr-icon"
+						/>
+						Members
+					</a>
+				</li>
+			</ul>
+
+			<div class="side-bar__bottom">
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-courses.svg"
+								class="sidebar__link-icon"
+								alt="course-icon"
+							/>
+							Courses
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-events.svg"
+								class="sidebar__link-icon"
+								alt="event-icon"
+							/>
+							Events
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-resources.svg"
+								class="sidebar__link-icon"
+								alt="resource-icon"
+							/>
+							Resources
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-discussion.svg"
+								class="sidebar__link-icon"
+								alt="discussion-icon"
+							/>
+							Discussions
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link side-bar__link--app">
+							<img
+								src="img/icons/sidebar_icons/sidebar-phone.svg"
+								class="sidebar__link-icon"
+								alt="access-conn-icon"
+							/>
+							Access Connections
+							<span>Get the app</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-helpline.svg"
+								class="sidebar__link-icon"
+								alt="helpline-icon"
+							/>
+							Helpline
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<!-- Side bar ends -->
+
+		<!-- Main starts -->
+		<main class="main">
+			<div class="main__aside"></div>
+			<section class="main__primary">
+				<div class="members">
+					<div class="forward-list">
+						<a href="#">Dashboard</a>
+						<span>/</span>
+						<a href="#">Sarah Mueller</a>
+					</div>
+
+					<div class="admin-profile">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="admin-profile__card">
+									<div class="row">
+										<div class="col-sm-3">
+											<div class="admin-profile__avatar">
+												<img src="img/admin-avatar-2.png" alt="" />
+											</div>
+										</div>
+										<div class="col-sm-9">
+											<div class="admin-profile__details">
+												<h3 class="admin-profile__title">Sarah Mueller</h3>
+												<div class="admin-profile__post">
+													<img class="mr-3" src="img/icons/admin/admin-briefcase.svg" alt="" />
+													<h4>Product Designer <span>at</span> Apple</h4>
+												</div>
+												<div class="admin-profile__location">
+													<img class="mr-3" src="img/icons/admin/admin-location.svg" alt="" />
+													<span>London, UK</span>
+												</div>
+												<div class="admin-profile__buttons">
+													<a href="#" class="d-none d-md-block d-lg-none d-xl-block">
+														<img src="img/icons/admin/admin-twitter.svg" alt="" />
+													</a>
+													<a href="#" class="d-none d-md-block d-lg-none d-xl-block">
+														<img src="img/icons/admin/admin-linked-in.svg" alt="" />
+													</a>
+
+													<a href="#" class="button button--blue-outline">Follow</a>
+													<a href="#" class="button button--blue-outline">Connect</a>
+													<a href="#" class="button button--blue-outline">Message</a>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="more-box d-none d-lg-block">
+										<a href="#">
+											<img src="img/icons/admin/admin-more.svg" alt="" />
+										</a>
+
+										<div class="more-box__dropdown">
+											<div class="more-box__option">Edit Profile</div>
+											<div class="more-box__option">Add to Group</div>
+											<div class="more-box__option">Delete</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="admin-profile__points">
+									<div class="row align-items-center">
+										<div class="col-sm-5">
+											<div class="admin-profile__points-big">
+												<figure>
+													<img src="img/awards-1.png" alt="" />
+												</figure>
+												<h1>190</h1>
+												<p>Awards Points</p>
+											</div>
+										</div>
+										<div class="col-sm-7">
+											<div class="admin-profile__points-small">
+												<figure>
+													<img src="img/awards-2.png" alt="" />
+												</figure>
+												<figure>
+													<img src="img/awards-3.png" alt="" />
+												</figure>
+												<figure>
+													<img src="img/awards-4.png" alt="" />
+												</figure>
+											</div>
+											<div class="admin-profile__points-small">
+												<figure>
+													<img src="img/awards-5.png" alt="" />
+												</figure>
+												<figure>
+													<img src="img/awards-2.png" alt="" />
+												</figure>
+												<figure>
+													<img src="img/awards-3.png" alt="" />
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="admin-tabs">
+						<div class="box-tabs">
+							<ul class="nav" id="pills-tab" role="tablist">
+								<li class="nav-item">
+									<a
+										class="nav-link active"
+										id="about-tab"
+										data-toggle="pill"
+										href="#about"
+										role="tab"
+										aria-controls="pills-about"
+										aria-selected="false"
+										>About</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-link"
+										id="achievements-tab"
+										data-toggle="pill"
+										href="#achievements"
+										role="tab"
+										aria-controls="pills-achievements"
+										aria-selected="false"
+										>Achievements</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a
+										class="nav-link"
+										id="followers-tab"
+										data-toggle="pill"
+										href="#followers"
+										role="tab"
+										aria-controls="pills-followers"
+										aria-selected="false"
+										>Followers</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a
+										class="nav-link"
+										id="following-tab"
+										data-toggle="pill"
+										href="#following"
+										role="tab"
+										aria-controls="pills-badges"
+										aria-selected="false"
+										>Following</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="tab-content">
+						<div
+							class="tab-pane fade show active"
+							id="about"
+							role="tabpanel"
+							aria-labelledby="about-tab"
+						>
+							<div class="admin-about">
+								<div class="admin-about__summary">
+									<h3 class="mb-5">Summary</h3>
+									<p>I am a passionate, driven individual who -</p>
+									<p>
+										Wait a minute. You didn’t come here to read about boring stuff - you came here
+										for help or advice. Or maybe you're just curious. Your business is either new,
+										has hit a low, or is simply stagnant. You need someone who can set you on the
+										right track. 👉
+									</p>
+									<a href="#">Show more</a>
+								</div>
+								<div class="admin-about__skills">
+									<h3 class="mb-5">Specialized Skills</h3>
+									<a href="#" class="pill pill-blue mr-4">Collaboration</a>
+									<a href="#" class="pill pill-light-red mr-4">Networking</a>
+									<a href="#" class="pill pill-light mr-4">Problem Solving</a>
+									<a href="#" class="pill pill-light-red">Ruby on Rails</a>
+								</div>
+								<div class="admin-about__development">
+									<h3 class="mb-5">Development Areas</h3>
+									<a href="#" class="pill pill-blue mr-4">Presentation</a>
+									<a href="#" class="pill pill-light-red mr-4">Self-Confidence</a>
+									<a href="#" class="pill pill-light mr-4">Time Management</a>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="tab-pane fade"
+							id="achievements"
+							role="tabpanel"
+							aria-labelledby="achievements-tab"
+						>
+							<div class="admin-achievement">
+								<div class="admin-achievement__summary">
+									<h3 class="mb-5">Summary</h3>
+									<div class="admin-achievement__content">
+										<div class="row align-items-center">
+											<div class="col-md-3">
+												<div class="admin-achievement__icon">
+													<figure>
+														<img src="img/icons/admin/admin-product-management.svg" alt="" />
+													</figure>
+													<h6>Product Management</h6>
+												</div>
+											</div>
+											<div class="col-md-9">
+												<p>
+													As a COO, growth marketer, and marketing strategist, I’ve come in touch
+													with product management as well, especially in my last job at Carts Guru,
+													where I worked in strategising and launching a new marketing automation
+													product. Product management, marketing, and growth hacking should always
+													go hand in hand in order to achieve a successful product and market fit.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="admin-achievement__content">
+										<div class="row align-items-center">
+											<div class="col-md-3">
+												<div class="admin-achievement__icon">
+													<figure>
+														<img src="img/icons/admin/admin-email-marketing.svg" alt="" />
+													</figure>
+													<h6>Email Marketing</h6>
+												</div>
+											</div>
+											<div class="col-md-9">
+												<p>
+													From marketing strategies to growth hacking experiments, I’ve used email
+													marketing in multiple situations. This experience taught me the right time
+													to send email communications, what language to use, and the various types
+													of email campaigns to launch - from transactional emails to daily email
+													automation.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="tab-pane fade"
+							id="followers"
+							role="tabpanel"
+							aria-labelledby="followers-tab"
+						>
+							<div class="admin-followers">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="admin-followers__single-card">
+											<div class="row align-items-center align-items-lg-start">
+												<div class="col-sm-3">
+													<figure>
+														<img src="img/followers-img-1.png" alt="" />
+													</figure>
+												</div>
+												<div class="col-sm-9">
+													<h3>Jonny Kilo</h3>
+													<h5>UX/UI Designer</h5>
+													<p>London, UK</p>
+												</div>
+											</div>
+											<div class="admin-followers__post">
+												<img class="mr-3" src="img/icons/admin/admin-briefcase.svg" alt="" />
+												<h4>Product Designer <span>at</span> Apple</h4>
+											</div>
+											<a href="#" class="button button--blue-outline mr-3">Follow</a>
+											<a href="#" class="button button--blue-outline">Follow</a>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="admin-followers__single-card">
+											<div class="row align-items-center align-items-lg-start">
+												<div class="col-sm-3">
+													<figure>
+														<img src="img/followers-img-2.png" alt="" />
+													</figure>
+												</div>
+												<div class="col-sm-9">
+													<h3>Jonny Kilo</h3>
+													<h5>UX/UI Designer</h5>
+													<p>London, UK</p>
+												</div>
+											</div>
+											<div class="admin-followers__post">
+												<img class="mr-3" src="img/icons/admin/admin-briefcase.svg" alt="" />
+												<h4>Product Designer <span>at</span> Apple</h4>
+											</div>
+											<a href="#" class="button button--blue-outline mr-3">Follow</a>
+											<a href="#" class="button button--blue-outline">Follow</a>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="admin-followers__single-card">
+											<div class="row align-items-center align-items-lg-start">
+												<div class="col-sm-3">
+													<figure>
+														<img src="img/followers-img-3.png" alt="" />
+													</figure>
+												</div>
+												<div class="col-sm-9">
+													<h3>Jonny Kilo</h3>
+													<h5>UX/UI Designer</h5>
+													<p>London, UK</p>
+												</div>
+											</div>
+											<div class="admin-followers__post">
+												<img class="mr-3" src="img/icons/admin/admin-briefcase.svg" alt="" />
+												<h4>Product Designer <span>at</span> Apple</h4>
+											</div>
+											<a href="#" class="button button--blue-outline mr-3">Follow</a>
+											<a href="#" class="button button--blue-outline">Follow</a>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="admin-followers__single-card">
+											<div class="row align-items-center align-items-lg-start">
+												<div class="col-sm-3">
+													<figure>
+														<img src="img/followers-img-4.png" alt="" />
+													</figure>
+												</div>
+												<div class="col-sm-9">
+													<h3>Jonny Kilo</h3>
+													<h5>UX/UI Designer</h5>
+													<p>London, UK</p>
+												</div>
+											</div>
+											<div class="admin-followers__post">
+												<img class="mr-3" src="img/icons/admin/admin-briefcase.svg" alt="" />
+												<h4>Product Designer <span>at</span> Apple</h4>
+											</div>
+											<a href="#" class="button button--blue-outline mr-3">Follow</a>
+											<a href="#" class="button button--blue-outline">Follow</a>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="admin-followers__single-card">
+											<div class="row align-items-center align-items-lg-start">
+												<div class="col-sm-3">
+													<figure>
+														<img src="img/followers-img-5.png" alt="" />
+													</figure>
+												</div>
+												<div class="col-sm-9">
+													<h3>Jonny Kilo</h3>
+													<h5>UX/UI Designer</h5>
+													<p>London, UK</p>
+												</div>
+											</div>
+											<div class="admin-followers__post">
+												<img class="mr-3" src="img/icons/admin/admin-briefcase.svg" alt="" />
+												<h4>Product Designer <span>at</span> Apple</h4>
+											</div>
+											<a href="#" class="button button--blue-outline mr-3">Follow</a>
+											<a href="#" class="button button--blue-outline">Follow</a>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="admin-followers__single-card">
+											<div class="row align-items-center align-items-lg-start">
+												<div class="col-sm-3">
+													<figure>
+														<img src="img/followers-img-6.png" alt="" />
+													</figure>
+												</div>
+												<div class="col-sm-9">
+													<h3>Jonny Kilo</h3>
+													<h5>UX/UI Designer</h5>
+													<p>London, UK</p>
+												</div>
+											</div>
+											<div class="admin-followers__post">
+												<img class="mr-3" src="img/icons/admin/admin-briefcase.svg" alt="" />
+												<h4>Product Designer <span>at</span> Apple</h4>
+											</div>
+											<a href="#" class="button button--blue-outline mr-3">Follow</a>
+											<a href="#" class="button button--blue-outline">Follow</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="tab-pane fade"
+							id="following"
+							role="tabpanel"
+							aria-labelledby="following-tab"
+						>
+							following
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Main ends -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

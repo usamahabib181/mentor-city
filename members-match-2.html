@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Font Family Open Sans -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome Css -->
+		<link rel="stylesheet" href="css/font-awesome/css/all.css" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Mentor City</title>
+	</head>
+	<body>
+		<!-- Top bar starts -->
+		<header class="top-bar">
+			<div class="top-bar__logo top-bar__logo--admin">
+				<img src="img/admin-logo.png" alt="main-logo" class="top-bar__img top-bar__img--admin" />
+			</div>
+
+			<div class="top-bar__toggler">
+				<a href="#" class="top-bar__bars">
+					<img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+				</a>
+
+				<a href="#" class="top-bar__close">
+					<img src="img/icons/topbar_icons/top-bar-close.svg" alt="close-icon" />
+				</a>
+			</div>
+
+			<div class="top-bar__side">
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-message.svg"
+						alt="message-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-notification.svg"
+						alt="notification-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__btn-box">
+					<a href="" class="button button--available">
+						<img
+							src="img/icons/topbar_icons/top-bar-available.svg"
+							alt="available-icon"
+							class="button__status"
+						/>
+
+						<span>Available</span>
+					</a>
+					<div class="dropdown-box">
+						<p class="dropdown-box__title">Set Your Availablity</p>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-available.svg"
+								alt="available-icon"
+								class=""
+							/>
+							Available <i class="fas fa-check"></i>
+						</div>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-unavailable.svg"
+								alt="unavailable-icon"
+								class=""
+							/>
+							Unavailable
+						</div>
+						<a href="" class="dropdown-box__settings">Advanced Settings</a>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__avatar-box">
+						<img src="img/admin-avatar.png" alt="profile-avatar" class="profile__avatar" />
+					</div>
+					<div class="profile__desc">
+						<h4 class="profile__title">Maria Kahn</h4>
+						<p class="profile__detail">Admin</p>
+					</div>
+					<div class="profile__arrow">
+						<img src="img/icons/down-arrow.svg" alt="down-arrow-icon" class="profile__arrow-icon" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Top bar ends -->
+
+		<!-- Side bar starts -->
+		<aside class="side-bar">
+			<ul class="side-bar__list">
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+							class="sidebar__link-icon"
+							alt="dashboard-icon"
+						/>
+						Dashboard
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-connection.svg"
+							class="sidebar__link-icon"
+							alt="connection-icon"
+						/>
+						Connections
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentors.svg"
+							class="sidebar__link-icon"
+							alt="mentors-icon"
+						/>
+						Mentors
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentees.svg"
+							class="sidebar__link-icon"
+							alt="mentee-icon"
+						/>
+						Mentees
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-group.svg"
+							class="sidebar__link-icon"
+							alt="gorup-icon"
+						/>
+						Groups
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link active">
+						<img
+							src="img/icons/sidebar_icons/sidebar-member.svg"
+							class="sidebar__link-icon"
+							alt="awadr-icon"
+						/>
+						Members
+					</a>
+				</li>
+			</ul>
+
+			<div class="side-bar__bottom">
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-courses.svg"
+								class="sidebar__link-icon"
+								alt="course-icon"
+							/>
+							Courses
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-events.svg"
+								class="sidebar__link-icon"
+								alt="event-icon"
+							/>
+							Events
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-resources.svg"
+								class="sidebar__link-icon"
+								alt="resource-icon"
+							/>
+							Resources
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-discussion.svg"
+								class="sidebar__link-icon"
+								alt="discussion-icon"
+							/>
+							Discussions
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link side-bar__link--app">
+							<img
+								src="img/icons/sidebar_icons/sidebar-phone.svg"
+								class="sidebar__link-icon"
+								alt="access-conn-icon"
+							/>
+							Access Connections
+							<span>Get the app</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-helpline.svg"
+								class="sidebar__link-icon"
+								alt="helpline-icon"
+							/>
+							Helpline
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<!-- Side bar ends -->
+
+		<!-- Main starts -->
+		<main class="main">
+			<div class="main__aside"></div>
+			<section class="main__primary">
+				<div class="members">
+					<div class="forward-list">
+						<a href="#">Dashboard</a>
+						<span>/</span>
+						<a href="#">Matching Members</a>
+						<span>/</span>
+						<a href="#">Match</a>
+					</div>
+
+					<div class="members-card">
+						<h3 class="members-card__title">Refine Match</h3>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Specialized Skills" class="members-card__input" />
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Industry" class="members-card__input" />
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Job Function" class="members-card__input" />
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Languages" class="members-card__input" />
+								</div>
+							</div>
+						</div>
+
+						<div class="members-card__footer">
+							<div class="members-card__pill-box">
+								<a href="#" class="pill pill-input">
+									English
+									<span class="pill-cross-icon"
+										><img src="./img/icons/close-icon.svg" alt="cross-icon"
+									/></span>
+								</a>
+								<a href="#" class="pill pill-input">
+									Business
+									<span class="pill-cross-icon"
+										><img src="./img/icons/close-icon.svg" alt="cross-icon"
+									/></span>
+								</a>
+							</div>
+							<a href="#">Clear Filters</a>
+						</div>
+					</div>
+
+					<div class="matches-card">
+						<div class="matches-card__header">
+							<div class="matches-card__title">
+								<h5>Result <span>6 Matches</span></h5>
+							</div>
+							<div class="matches-card__filter">
+								<div class="matches-card__filter-group">
+									<input type="checkbox" id="comptaible" />
+									<label for="comptaible">80 - 100% Compatible</label>
+								</div>
+								<div class="matches-card__filter-group">
+									<input type="checkbox" id="comptaible" />
+									<label for="comptaible">60 - 79% Compatible</label>
+								</div>
+								<div class="matches-card__filter-group">
+									<input type="checkbox" id="comptaible" />
+									<label for="comptaible">Less than 60% Compatible</label>
+								</div>
+							</div>
+						</div>
+						<div class="matches-card__container">
+							<div class="matches-card__buttons">
+								<div class="">
+									<a href="#" class="button button--blue-outline mr-4">Reset Matches</a>
+									<a href="#" class="button button--blue-outline">Select/ Deselect</a>
+								</div>
+
+								<a href="#" class="button button--blue-disabled">Match All</a>
+							</div>
+
+							<div class="match-card">
+								<div class="match-card__header match-card__header--green">
+									<h4>Match 80% <span>| Competencies compatibility: High</span></h4>
+									<div class="match-card__select">
+										Select
+										<div></div>
+									</div>
+								</div>
+								<div class="match-card__content">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="match-card__box left">
+												<div class="match-card__profile">
+													<div class="match-card__avatar">
+														<figure>
+															<img src="img/chat-profile-1.png" alt="" />
+														</figure>
+														<div>
+															<h4>Sarah Muller</h4>
+															<small>London, UK</small>
+														</div>
+													</div>
+													<div class="">
+														<a href="#" class="pill pill-input">Mentee</a>
+													</div>
+												</div>
+												<div class="match-card__tagline">
+													<img src="img/icons/admin/admin-briefcase.svg" alt="" />
+													<p>Product Designer <span>at</span> Apple</p>
+												</div>
+												<div class="match-card__summary">
+													<h4>Summary</h4>
+													<p>
+														MBA in HR with excellent HR corporate experience with multinational
+														organizations. Certified in Facilitation Skills & Instructional
+														Designing.
+													</p>
+												</div>
+												<div class="match-card__skills">
+													<h4>Specialized Skills</h4>
+
+													<a href="#" class="pill pill-input">Presentation</a>
+													<a href="#" class="pill pill-light-red">Self-Confidence</a>
+
+													<div class="match-card__outline-buttons">
+														<a href="#" class="button button--blue-outline">Follow</a>
+														<a href="#" class="button button--blue-outline">Add to Group</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="match-card__box right">
+												<div class="match-card__profile">
+													<div class="match-card__avatar">
+														<figure>
+															<img src="img/chat-profile-2.png" alt="" />
+														</figure>
+														<div>
+															<h4>Mishi Khan</h4>
+															<small>London, UK</small>
+														</div>
+													</div>
+													<div class="">
+														<a href="#" class="pill pill-input">Mentor</a>
+													</div>
+												</div>
+												<div class="match-card__tagline">
+													<img src="img/icons/admin/admin-briefcase.svg" alt="" />
+													<p>Student <span>at</span> University</p>
+												</div>
+												<div class="match-card__summary">
+													<h4>Summary</h4>
+													<p>
+														Your business is either new, has hit a low, or is simply stagnant. You
+														need someone who can set you on the right track ...
+													</p>
+												</div>
+												<div class="match-card__skills">
+													<h4>Development Areas</h4>
+
+													<a href="#" class="pill pill-input">Presentation</a>
+													<a href="#" class="pill pill-light-red">Self-Confidence</a>
+													<a href="#" class="pill pill-input">Time Management</a>
+
+													<div class="match-card__outline-buttons">
+														<a href="#" class="button button--blue-outline">Follow</a>
+														<a href="#" class="button button--blue-outline">Add to Group</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="d-flex justify-content-center mt-5">
+										<a href="#" class="button button--blue">Match Both</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="match-card">
+								<div class="match-card__header match-card__header--red">
+									<h4>Match 80% <span>| Competencies compatibility: High</span></h4>
+									<div class="match-card__select">
+										Select
+										<div></div>
+									</div>
+								</div>
+								<div class="match-card__content">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="match-card__box left">
+												<div class="match-card__profile">
+													<div class="match-card__avatar">
+														<figure>
+															<img src="img/chat-profile-1.png" alt="" />
+														</figure>
+														<div>
+															<h4>Sarah Muller</h4>
+															<small>London, UK</small>
+														</div>
+													</div>
+													<div class="">
+														<a href="#" class="pill pill-input">Mentee</a>
+													</div>
+												</div>
+												<div class="match-card__tagline">
+													<img src="img/icons/admin/admin-briefcase.svg" alt="" />
+													<p>Product Designer <span>at</span> Apple</p>
+												</div>
+												<div class="match-card__summary">
+													<h4>Summary</h4>
+													<p>
+														MBA in HR with excellent HR corporate experience with multinational
+														organizations. Certified in Facilitation Skills & Instructional
+														Designing.
+													</p>
+												</div>
+												<div class="match-card__skills">
+													<h4>Specialized Skills</h4>
+
+													<div>
+														<a href="#" class="pill pill-input">Presentation</a>
+														<a href="#" class="pill pill-light-red">Self-Confidence</a>
+													</div>
+													<div class="match-card__outline-buttons">
+														<a href="#" class="button button--blue-outline">Follow</a>
+														<a href="#" class="button button--blue-outline">Add to Group</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="match-card__box right">
+												<div class="match-card__profile">
+													<div class="match-card__avatar">
+														<figure>
+															<img src="img/chat-profile-2.png" alt="" />
+														</figure>
+														<div>
+															<h4>Mishi Khan</h4>
+															<small>London, UK</small>
+														</div>
+													</div>
+													<div class="">
+														<a href="#" class="pill pill-input">Mentor</a>
+													</div>
+												</div>
+												<div class="match-card__tagline">
+													<img src="img/icons/admin/admin-briefcase.svg" alt="" />
+													<p>Student <span>at</span> University</p>
+												</div>
+												<div class="match-card__summary">
+													<h4>Summary</h4>
+													<p>
+														Your business is either new, has hit a low, or is simply stagnant. You
+														need someone who can set you on the right track ...
+													</p>
+												</div>
+												<div class="match-card__skills">
+													<h4>Development Areas</h4>
+
+													<div>
+														<a href="#" class="pill pill-input">Presentation</a>
+														<a href="#" class="pill pill-light-red">Self-Confidence</a>
+														<a href="#" class="pill pill-input">Time Management</a>
+													</div>
+													<div class="match-card__outline-buttons">
+														<a href="#" class="button button--blue-outline">Follow</a>
+														<a href="#" class="button button--blue-outline">Add to Group</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="d-flex justify-content-center mt-5">
+										<a href="#" class="button button--blue">Match Both</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="match-card">
+								<div class="match-card__header match-card__header--yellow">
+									<h4>Match 80% <span>| Competencies compatibility: High</span></h4>
+									<div class="match-card__select">
+										Select
+										<div></div>
+									</div>
+								</div>
+								<div class="match-card__content">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="match-card__box left">
+												<div class="match-card__profile">
+													<div class="match-card__avatar">
+														<figure>
+															<img src="img/chat-profile-1.png" alt="" />
+														</figure>
+														<div>
+															<h4>Sarah Muller</h4>
+															<small>London, UK</small>
+														</div>
+													</div>
+													<div class="">
+														<a href="#" class="pill pill-input">Mentee</a>
+													</div>
+												</div>
+												<div class="match-card__tagline">
+													<img src="img/icons/admin/admin-briefcase.svg" alt="" />
+													<p>Product Designer <span>at</span> Apple</p>
+												</div>
+												<div class="match-card__summary">
+													<h4>Summary</h4>
+													<p>MBA in HR with excellent HR corporate experience</p>
+												</div>
+												<div class="match-card__skills">
+													<h4>Specialized Skills</h4>
+
+													<div>
+														<a href="#" class="pill pill-input">Presentation</a>
+														<a href="#" class="pill pill-light-red">Self-Confidence</a>
+													</div>
+
+													<div class="match-card__outline-buttons">
+														<a href="#" class="button button--blue-outline">Follow</a>
+														<a href="#" class="button button--blue-outline">Add to Group</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="match-card__box right">
+												<div class="match-card__profile">
+													<div class="match-card__avatar">
+														<figure>
+															<img src="img/chat-profile-2.png" alt="" />
+														</figure>
+														<div>
+															<h4>Mishi Khan</h4>
+															<small>London, UK</small>
+														</div>
+													</div>
+													<div class="">
+														<a href="#" class="pill pill-input">Mentor</a>
+													</div>
+												</div>
+												<div class="match-card__tagline">
+													<img src="img/icons/admin/admin-briefcase.svg" alt="" />
+													<p>Student <span>at</span> University</p>
+												</div>
+												<div class="match-card__summary">
+													<h4>Summary</h4>
+													<p>
+														Your business is either new, has hit a low, or is simply stagnant. You
+														need someone who can set you on the right track ...
+													</p>
+												</div>
+												<div class="match-card__skills">
+													<h4>Development Areas</h4>
+
+													<div>
+														<a href="#" class="pill pill-input">Presentation</a>
+														<a href="#" class="pill pill-light-red">Self-Confidence</a>
+														<a href="#" class="pill pill-input">Time Management</a>
+													</div>
+
+													<div class="match-card__outline-buttons">
+														<a href="#" class="button button--blue-outline">Follow</a>
+														<a href="#" class="button button--blue-outline">Add to Group</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="d-flex justify-content-center mt-5">
+										<a href="#" class="button button--blue">Match Both</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Main ends -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Family Open Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Mentor City</title>
+  </head>
+  <body>
+    <!-- Top bar starts -->
+    <header class="top-bar">
+      <div class="top-bar__logo">
+        <img src="img/main-logo.png" alt="main-logo" class="top-bar__img" />
+      </div>
+
+      <div class="top-bar__toggler">
+        <a href="#" class="top-bar__bars">
+          <img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+        </a>
+
+        <a href="#" class="top-bar__close">
+          <img
+            src="img/icons/topbar_icons/top-bar-close.svg"
+            alt="close-icon"
+          />
+        </a>
+      </div>
+
+      <div class="top-bar__side">
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-message.svg"
+            alt="message-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-notification.svg"
+            alt="notification-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__btn-box">
+          <a href="" class="button button--available">
+            <img
+              src="img/icons/topbar_icons/top-bar-available.svg"
+              alt="available-icon"
+              class="button__status"
+            />
+
+            <span>Available</span>
+          </a>
+          <div class="dropdown-box">
+            <p class="dropdown-box__title">Set Your Availablity</p>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-available.svg"
+                alt="available-icon"
+                class=""
+              />
+              Available <i class="fas fa-check"></i>
+            </div>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-unavailable.svg"
+                alt="unavailable-icon"
+                class=""
+              />
+              Unavailable
+            </div>
+            <a href="" class="dropdown-box__settings">Advanced Settings</a>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile__avatar-box">
+            <img
+              src="img/icons/topbar_icons/top-bar-person.png"
+              alt="profile-avatar"
+              class="profile__avatar"
+            />
+          </div>
+          <div class="profile__desc">
+            <h4 class="profile__title">Martin Blum</h4>
+            <p class="profile__detail">Member</p>
+          </div>
+          <div class="profile__arrow">
+            <img
+              src="img/icons/down-arrow.svg"
+              alt="down-arrow-icon"
+              class="profile__arrow-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Top bar ends -->
+
+    <!-- Side bar starts -->
+    <aside class="side-bar">
+      <ul class="side-bar__list">
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+              class="sidebar__link-icon"
+              alt="dashboard-icon"
+            />
+            Dashboard
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-connection.svg"
+              class="sidebar__link-icon"
+              alt="connection-icon"
+            />
+            Connections
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentors.svg"
+              class="sidebar__link-icon"
+              alt="mentors-icon"
+            />
+            Mentors
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentees.svg"
+              class="sidebar__link-icon"
+              alt="mentee-icon"
+            />
+            Mentees
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-group.svg"
+              class="sidebar__link-icon"
+              alt="gorup-icon"
+            />
+            Groups
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-awards.svg"
+              class="sidebar__link-icon"
+              alt="awadr-icon"
+            />
+            Awards
+          </a>
+        </li>
+      </ul>
+
+      <div class="side-bar__bottom">
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-courses.svg"
+                class="sidebar__link-icon"
+                alt="course-icon"
+              />
+              Courses
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-events.svg"
+                class="sidebar__link-icon"
+                alt="event-icon"
+              />
+              Events
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-resources.svg"
+                class="sidebar__link-icon"
+                alt="resource-icon"
+              />
+              Resources
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-discussion.svg"
+                class="sidebar__link-icon"
+                alt="discussion-icon"
+              />
+              Discussions
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link side-bar__link--app">
+              <img
+                src="img/icons/sidebar_icons/sidebar-phone.svg"
+                class="sidebar__link-icon"
+                alt="access-conn-icon"
+              />
+              Access Connections
+              <span>Get the app</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link active">
+              <img
+                src="img/icons/sidebar_icons/sidebar-helpline.svg"
+                class="sidebar__link-icon"
+                alt="helpline-icon"
+              />
+              Helpline
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Side bar ends -->
+
+    <!-- Main starts -->
+    <main class="main">
+      <div class="main__aside"></div>
+      <section class="main__primary resources-article">
+        <div class="resources-article__container">
+          <div class="resources-article__header">
+            <a href="#" class="resources-article__tile-1"> Resources </a>
+            <span>/</span>
+            <a href="#" class="resources-article__tile-2"> Articles</a>
+            <span>/</span>
+            <a href="#" class="resources-article__tile-3">
+              MentorCity offers free web Conference
+            </a>
+          </div>
+          <div class="resources-article__wrapper">
+            <div class="row">
+              <div class="col-md-8 col-lg-9">
+                <div class="resources-article__main">
+                  <div class="resources-article__img">
+                    <img
+                      src="./img/resources-article-main.png"
+                      alt="resources-article-main"
+                    />
+                    <span>6 min Read</span>
+                  </div>
+                  <div class="resources-article__content">
+                    <span class="resources-article__top">
+                      <a href="#">UX Design</a>
+                    </span>
+                    <h2>MentorCity Offers Free Web Conferencing to mentors</h2>
+                    <!-- resources-article card -->
+                    <div class="resources-article__card-wrap">
+                      <div class="resources-article__card">
+                        <div class="resources-article__card-img">
+                          <img
+                            src="./img/resources-user-image.png"
+                            alt="resources-user-image"
+                          />
+                        </div>
+
+                        <div class="resources-article__user-wrap">
+                          <h2 class="resources-article__user">Martin Bowers</h2>
+                          <p>
+                            Martin helps businesses craft meaningful engagement
+                            through branding, illustration, and design.
+                          </p>
+                        </div>
+                      </div>
+                      <a href="#">
+                        <img
+                          src="./img/icons/share-iconn.svg"
+                          class="resources-article__share-icon"
+                          alt="share-icon"
+                        />
+                      </a>
+                    </div>
+                    <!-- resources-article card end -->
+                    <div class="resources-article__main-desc">
+                      <div class="resources-article__main-desc-tile-1">
+                        <p>
+                          Mentorcity is offering free web conferencing to
+                          mentors who need a distance learning tool, with no
+                          strings attached. Constraints are design limitations.
+                          An obvious example is budget. Money affords manpower,
+                          tools, and to some extent, time. Other factors, like
+                          governing bodies and public opinion, are harder to
+                          buy. And of course, no design solution supersedes the
+                          laws of nature.
+                        </p>
+                      </div>
+                      <div class="resources-article__main-desc-tile-2">
+                        <p>
+                          Viewed unfavorably, constraints are a form of
+                          deprivation. They are unavailable options and mandates
+                          that exclude “better” alternatives. The connotation is
+                          wholly negative. Constraints stifle creativity.
+                        </p>
+                      </div>
+
+                      <div class="resources-article__main-desc-tile-3">
+                        <h2>Design Constraints Aren’t Restraints</h2>
+                      </div>
+                      <div class="resources-article__main-desc-tile-4">
+                        <p>
+                          In artistic undertakings, constraints solve the blank
+                          canvas problem. An infinite universe of options
+                          overwhelms the first stroke. Constraints embolden the
+                          brush by intentionally forsaking creative choices
+                          (like color or subject matter). Decision-making is
+                          swift and simple as seemingly one-dimensional actions
+                          accumulate greater levels of sophistication.
+                        </p>
+                      </div>
+                      <div class="resources-article__main-desc-tile-5">
+                        <p>
+                          An obvious example is budget. Money affords manpower,
+                          tools, and to some extent, time. Other factors, like
+                          governing bodies and public opinion.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right side bar -->
+              <div class="col-md-4 col-lg-3">
+                <div class="categories">
+                  <div class="categories__title">
+                    <h3 class="categories__tile-1">Categories</h3>
+                    <ul>
+                      <li><a href="#" class="pill-active">UI</a></li>
+                      <li>
+                        <a href="#" class="pill-active">Creative Direction</a>
+                      </li>
+                      <li><a href="#" class="pill-active">Product</a></li>
+                      <li><a href="#" class="pill-active">UX</a></li>
+                    </ul>
+                  </div>
+                  <div class="categories__post-article">
+                    <h3 class="categories__post-title">
+                      How to post your article to blog section
+                    </h3>
+                    <a href="#" class="categories__btn">Learn Now</a>
+                    <div class="categories__post-foter">
+                      <p>More text comes here if needed for this section</p>
+                    </div>
+                  </div>
+                  <!-- trending article -->
+                  <div class="categories__trending-article">
+                    <h3 class="categories__trending-tile-1">
+                      Trending Articles
+                    </h3>
+                    <div class="categories__trending-tile-2">
+                      <a href="#">Design</a>
+                      <span>
+                        <img
+                          src="./img/icons/left-arrow-icon.svg"
+                          alt="left-arrow-icon"
+                        />
+                      </span>
+                      <a href="#">UI Design</a>
+                    </div>
+                    <div class="categories__trending-tile-3">
+                      Adobe XD vs Figma – Showdown 2022
+                    </div>
+                    <a href="#" class="categories__read-more">Read More ›</a>
+                  </div>
+                  <!-- About Authore -->
+                  <div class="categories__about-author-box">
+                    <div class="categories__about-author">About the author</div>
+                    <div class="categories__author-profile">
+                      <div class="categories__author-image">
+                        <img
+                          src="./img/author-profile-image.png"
+                          alt="author-profile-image"
+                        />
+                      </div>
+                      <div class="categories__author-name">
+                        <h3>Martin Bowers</h3>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Main ends -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Font Family Open Sans -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome Css -->
+		<link rel="stylesheet" href="css/font-awesome/css/all.css" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Mentor City</title>
+	</head>
+	<body>
+		<!-- Top bar starts -->
+		<header class="top-bar">
+			<div class="top-bar__logo">
+				<img src="img/main-logo.png" alt="main-logo" class="top-bar__img" />
+			</div>
+
+			<div class="top-bar__toggler">
+				<a href="#" class="top-bar__bars">
+					<img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+				</a>
+
+				<a href="#" class="top-bar__close">
+					<img src="img/icons/topbar_icons/top-bar-close.svg" alt="close-icon" />
+				</a>
+			</div>
+
+			<div class="top-bar__side">
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-message.svg"
+						alt="message-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-notification.svg"
+						alt="notification-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__btn-box">
+					<a href="" class="button button--available">
+						<img
+							src="img/icons/topbar_icons/top-bar-available.svg"
+							alt="available-icon"
+							class="button__status"
+						/>
+
+						<span>Available</span>
+					</a>
+					<div class="dropdown-box">
+						<p class="dropdown-box__title">Set Your Availablity</p>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-available.svg"
+								alt="available-icon"
+								class=""
+							/>
+							Available <i class="fas fa-check"></i>
+						</div>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-unavailable.svg"
+								alt="unavailable-icon"
+								class=""
+							/>
+							Unavailable
+						</div>
+						<a href="" class="dropdown-box__settings">Advanced Settings</a>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__avatar-box">
+						<img
+							src="img/icons/topbar_icons/top-bar-person.png"
+							alt="profile-avatar"
+							class="profile__avatar"
+						/>
+					</div>
+					<div class="profile__desc">
+						<h4 class="profile__title">Martin Blum</h4>
+						<p class="profile__detail">Member</p>
+					</div>
+					<div class="profile__arrow">
+						<img src="img/icons/down-arrow.svg" alt="down-arrow-icon" class="profile__arrow-icon" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Top bar ends -->
+
+		<!-- Side bar starts -->
+		<aside class="side-bar">
+			<ul class="side-bar__list">
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link active">
+						<img
+							src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+							class="sidebar__link-icon"
+							alt="dashboard-icon"
+						/>
+						Dashboard
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-connection.svg"
+							class="sidebar__link-icon"
+							alt="connection-icon"
+						/>
+						Connections
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentors.svg"
+							class="sidebar__link-icon"
+							alt="mentors-icon"
+						/>
+						Mentors
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentees.svg"
+							class="sidebar__link-icon"
+							alt="mentee-icon"
+						/>
+						Mentees
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-group.svg"
+							class="sidebar__link-icon"
+							alt="gorup-icon"
+						/>
+						Groups
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-awards.svg"
+							class="sidebar__link-icon"
+							alt="awadr-icon"
+						/>
+						Awards
+					</a>
+				</li>
+			</ul>
+
+			<div class="side-bar__bottom">
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-courses.svg"
+								class="sidebar__link-icon"
+								alt="course-icon"
+							/>
+							Courses
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-events.svg"
+								class="sidebar__link-icon"
+								alt="event-icon"
+							/>
+							Events
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-resources.svg"
+								class="sidebar__link-icon"
+								alt="resource-icon"
+							/>
+							Resources
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-discussion.svg"
+								class="sidebar__link-icon"
+								alt="discussion-icon"
+							/>
+							Discussions
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link side-bar__link--app">
+							<img
+								src="img/icons/sidebar_icons/sidebar-phone.svg"
+								class="sidebar__link-icon"
+								alt="access-conn-icon"
+							/>
+							Access Connections
+							<span>Get the app</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-helpline.svg"
+								class="sidebar__link-icon"
+								alt="helpline-icon"
+							/>
+							Helpline
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<!-- Side bar ends -->
+
+		<!-- Main starts -->
+		<main class="main">
+			<div class="main__aside"></div>
+			<section class="group-call">
+				<div class="group-call__container">
+					<div class="group-call__topbar">
+						<div class="group-call__profile">
+							<img src="img/profile-img.png" alt="" />
+						</div>
+						<div class="group-call__person-box">
+							<div class="group-call__left-indicator">
+								<img src="img/icons/call_icons/left-indicator.svg" alt="" />
+							</div>
+							<div class="group-call__all-members">
+								<div class="group-call__tile">
+									<img src="img/video-member-1.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/unmute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-2.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-3.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-4.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-5.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-6.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-7.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-8.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-9.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-10.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-11.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-11.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-11.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+								<div class="group-call__tile">
+									<img src="img/video-member-11.png" alt="" />
+									<button>
+										<img src="img/icons/call_icons/mute-icon-sm.svg" alt="" />
+									</button>
+								</div>
+							</div>
+							<div class="group-call__right-indicator">
+								<img src="img/icons/call_icons/right-indicator.svg" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="group-call__members">
+						<div class="row no-gutters">
+							<div class="col-md-6">
+								<div class="group-call__member">
+									<img src="img/member-1.png" alt="member-1" />
+									<a href="#" class="button button--call">Sara Mueler</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="group-call__member">
+									<img src="img/member-2.png" alt="member-2" />
+									<a href="#" class="button button--call">Mishi Khan</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="group-call__member">
+									<img src="img/member-3.png" alt="member-3" />
+									<a href="#" class="button button--call">Sven Berg</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="group-call__member">
+									<img src="img/member-4.png" alt="member-4" />
+									<a href="#" class="button button--call">Julia k.</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- call icons -->
+						<div class="audiocall__icons">
+							<div class="audiocall__icon audiocalling__icon--stroke">
+								<a href="#">
+									<svg
+										width="23"
+										height="20"
+										viewBox="0 0 23 20"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M4.14735 15.4311H3.11577C2.56859 15.4311 2.04381 15.2079 1.6569 14.8107C1.26998 14.4134 1.05261 13.8747 1.05261 13.3129V2.72174C1.05261 2.15995 1.26998 1.62117 1.6569 1.22393C2.04381 0.826685 2.56859 0.603516 3.11577 0.603516H19.621C20.1682 0.603516 20.693 0.826685 21.0799 1.22393C21.4668 1.62117 21.6842 2.15995 21.6842 2.72174V13.3129C21.6842 13.8747 21.4668 14.4134 21.0799 14.8107C20.693 15.2079 20.1682 15.4311 19.621 15.4311H18.5895"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M11.3683 13.207L16.5262 19.1381H6.21045L11.3683 13.207Z"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+							<div class="audiocall__icon audiocalling__icon--stroke">
+								<a href="#">
+									<svg
+										width="23"
+										height="34"
+										viewBox="0 0 23 34"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M11.1337 1.37207C10.0651 1.37207 9.0403 1.8425 8.2847 2.67987C7.5291 3.51724 7.10461 4.65296 7.10461 5.83719V17.7442C7.10461 18.9284 7.5291 20.0641 8.2847 20.9015C9.0403 21.7388 10.0651 22.2093 11.1337 22.2093C12.2023 22.2093 13.2271 21.7388 13.9827 20.9015C14.7383 20.0641 15.1628 18.9284 15.1628 17.7442V5.83719C15.1628 4.65296 14.7383 3.51724 13.9827 2.67987C13.2271 1.8425 12.2023 1.37207 11.1337 1.37207V1.37207Z"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M21.7558 14.7673V17.7441C21.7558 20.5073 20.6752 23.1573 18.7519 25.1111C16.8286 27.065 14.22 28.1627 11.5 28.1627C8.77994 28.1627 6.17134 27.065 4.248 25.1111C2.32466 23.1573 1.24414 20.5073 1.24414 17.7441V14.7673"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M11.5 28.1628V33.3721"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M5.63953 33.3721H17.3605"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+							<div class="audiocall__icon">
+								<a href="#">
+									<svg
+										width="64"
+										height="64"
+										viewBox="0 0 64 64"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle cx="32" cy="32" r="32" fill="#EB5757" />
+										<path
+											d="M52.0817 31.8224C46.6327 26.6582 39.4995 23.814 31.9998 23.814C24.5001 23.814 17.3669 26.6582 11.9006 31.838C11.4231 32.3138 11.1626 32.951 11.1626 33.6334C11.1626 34.3228 11.437 34.9774 11.8988 35.4115L16.0246 39.539C16.9779 40.4888 18.69 40.461 19.5756 39.5789C20.8658 38.3843 22.288 37.3962 23.7899 36.6444C24.7224 36.1929 25.0541 35.0937 25.0541 34.2151V29.6553C27.2681 29.0597 29.7859 29.0058 31.9998 29.0058C34.3457 29.0058 36.7993 29.0597 38.9455 29.6501V34.2151C38.9455 35.3681 39.4109 36.2832 40.1818 36.6566C41.7515 37.4415 43.1772 38.4278 44.417 39.5894C44.891 40.0374 45.5318 40.2927 46.1777 40.2927C46.8602 40.2927 47.4974 40.0322 47.9732 39.5547L52.099 35.4289C52.5748 34.9549 52.837 34.3176 52.837 33.6334C52.837 32.951 52.5765 32.3138 52.0817 31.8224ZM50.8714 34.1995L46.7456 38.3253C46.4574 38.6135 45.9313 38.6274 45.6065 38.3236C44.2417 37.0456 42.6772 35.9621 40.9494 35.099C40.8417 35.0469 40.682 34.7292 40.682 34.2151V29.0058C40.682 28.6325 40.4424 28.3009 40.0881 28.1828C37.5616 27.3406 34.7069 27.2694 31.9998 27.2694C29.449 27.2694 26.5109 27.3407 23.9185 28.1794C23.5607 28.2957 23.3177 28.6291 23.3177 29.0059V34.2152C23.3177 34.691 23.1527 35.0262 23.026 35.0869C21.3677 35.9169 19.8101 36.9987 18.3741 38.3271C18.1015 38.6015 17.5493 38.6049 17.2541 38.3115L13.1092 34.1666C12.9754 34.0398 12.8991 33.8471 12.8991 33.6335C12.8991 33.4147 12.9807 33.2133 13.111 33.083C18.2368 28.2245 24.9447 25.5504 31.9998 25.5504C39.0549 25.5504 45.7628 28.2245 50.8714 33.0657C51.019 33.2133 51.1006 33.4147 51.1006 33.6335C51.1006 33.8523 51.019 34.0537 50.8714 34.1995Z"
+											fill="white"
+										/>
+									</svg>
+								</a>
+							</div>
+							<div class="audiocall__icon audiocalling__icon--stroke">
+								<a href="#">
+									<svg
+										width="64"
+										height="64"
+										viewBox="0 0 64 64"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle opacity="0.4" cx="32" cy="32" r="32" fill="white" />
+										<path
+											d="M48.3726 24.8604L37.4424 32.5115L48.3726 40.1627V24.8604Z"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M34.2358 21.5813H16.6017C14.831 21.5813 13.3955 22.9795 13.3955 24.7042V40.3188C13.3955 42.0436 14.831 43.4417 16.6017 43.4417H34.2358C36.0065 43.4417 37.442 42.0436 37.442 40.3188V24.7042C37.442 22.9795 36.0065 21.5813 34.2358 21.5813Z"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M14.1396 14.8838L50.6048 49.8605"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+							<div class="audiocall__icon audiocalling__icon--stroke">
+								<a href="#">
+									<svg
+										width="23"
+										height="23"
+										viewBox="0 0 23 23"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M14.1313 3.15967H19.6577V8.72001"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M8.60517 19.8406H3.07886V14.2803"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M19.6578 3.15967L13.2104 9.64674"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M3.07886 19.8406L9.52623 13.3535"
+											stroke="white"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+							<div class="audiocalling__chat-icon">
+								<a href="#">
+									<svg
+										width="42"
+										height="43"
+										viewBox="0 0 42 43"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<ellipse cx="21" cy="21.8708" rx="21" ry="21.1293" fill="white" />
+										<rect
+											x="7.98828"
+											y="17.4731"
+											width="7.46957"
+											height="1.49464"
+											rx="0.747322"
+											fill="#556182"
+										/>
+										<rect
+											x="7.98828"
+											y="20.4624"
+											width="4.48174"
+											height="1.49464"
+											rx="0.747322"
+											fill="#556182"
+										/>
+										<path
+											d="M29.5354 15.5639H24.4372C24.2326 14.1007 23.5342 12.7542 22.4432 11.7364C21.2429 10.6166 19.6776 10 18.0356 10H11.4647C7.90002 10.0001 5 12.9015 5 16.4678V18.9212C5 21.5547 6.57325 23.9035 9.00803 24.9051C9.2326 24.9992 9.50197 24.8921 9.59667 24.6593C9.69142 24.4288 9.58141 24.1652 9.35103 24.0704C7.25586 23.2085 5.90203 21.1873 5.90203 18.9212V16.4678C5.90203 13.3991 8.39741 10.9025 11.4646 10.9025H18.0356C20.7672 10.9025 23.0891 12.914 23.524 15.5639H22.9645C19.3998 15.5639 16.4998 18.4653 16.4998 22.0317V24.4851V24.4866H13.4978C13.3367 24.4866 13.1878 24.5726 13.1072 24.7122L11.5987 27.3263C11.5609 27.3917 11.5009 27.4015 11.4685 27.4015C11.4361 27.4015 11.3761 27.3918 11.3383 27.3263L10.6709 26.1696C10.5463 25.9538 10.2705 25.8798 10.0548 26.0044C9.83904 26.129 9.76511 26.405 9.88971 26.6209L10.5572 27.7775C10.7474 28.1071 11.0881 28.3039 11.4685 28.304C11.849 28.304 12.1897 28.1072 12.3799 27.7775L13.7582 25.389H16.5632C17.004 28.529 19.7064 30.9529 22.9644 30.9529H27.215L28.6201 33.3878C28.8103 33.7175 29.151 33.9143 29.5315 33.9143C29.912 33.9143 30.2527 33.7175 30.4429 33.3878L32.1716 30.3922C32.9324 30.0523 33.6121 29.5742 34.1939 28.9694C34.3666 28.7898 34.3611 28.5041 34.1817 28.3313C34.0022 28.1584 33.7167 28.1639 33.5439 28.3435C33.0121 28.8964 32.3855 29.3262 31.6814 29.621C31.5904 29.6591 31.5144 29.7261 31.465 29.8117L29.6616 32.9366C29.6239 33.002 29.5639 33.0118 29.5315 33.0118C29.4991 33.0118 29.4391 33.002 29.4013 32.9365L27.866 30.276C27.7854 30.1364 27.6365 30.0504 27.4754 30.0504H22.9644C19.8972 30.0504 17.4018 27.5537 17.4018 24.4851V22.0317C17.4018 18.9629 19.8972 16.4664 22.9644 16.4664H29.5354C32.6026 16.4664 35.098 18.963 35.098 22.0317V24.4851C35.098 25.2924 34.9292 26.0707 34.5962 26.7984C34.4926 27.025 34.5921 27.2928 34.8186 27.3964C35.0451 27.5001 35.3127 27.4006 35.4164 27.1739C35.8036 26.3275 36 25.4228 36 24.485V22.0316C36.0001 18.4653 33.1 15.5639 29.5354 15.5639Z"
+											fill="#556182"
+										/>
+										<rect
+											x="19.9385"
+											y="18.9678"
+											width="11.9513"
+											height="1.49464"
+											rx="0.747321"
+											fill="#556182"
+										/>
+										<rect
+											x="7.98828"
+											y="14.4839"
+											width="11.9513"
+											height="1.49464"
+											rx="0.747321"
+											fill="#556182"
+										/>
+										<rect
+											x="19.9385"
+											y="21.9573"
+											width="11.9513"
+											height="1.49464"
+											rx="0.747321"
+											fill="#556182"
+										/>
+										<rect
+											x="19.9385"
+											y="24.9465"
+											width="11.9513"
+											height="1.49464"
+											rx="0.747321"
+											fill="#556182"
+										/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="group-call__chat-menu">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								id="people-tab"
+								data-toggle="tab"
+								href="#people"
+								role="tab"
+								aria-controls="home"
+								aria-selected="true"
+							>
+								<svg
+									width="33"
+									height="25"
+									viewBox="0 0 33 25"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M28.3602 11.4369C27.2896 10.893 25.2822 10.8867 25.1972 10.8867C24.9427 10.8867 24.7363 11.0964 24.7363 11.3551C24.7363 11.6137 24.9427 11.8234 25.1972 11.8234C25.7152 11.8235 27.2192 11.9045 27.948 12.2748C28.0142 12.3084 28.0845 12.3243 28.1537 12.3243C28.3228 12.3243 28.4856 12.2294 28.5663 12.0653C28.6802 11.834 28.5879 11.5526 28.3602 11.4369Z"
+										fill="#556182"
+									/>
+									<path
+										d="M30.6576 18.105L28.754 17.5524C28.6719 17.5285 28.6145 17.4512 28.6145 17.3643V16.7187C28.7693 16.6097 28.9171 16.4877 29.0552 16.3515C29.7244 15.6915 30.0929 14.8064 30.0929 13.8589V12.968L30.277 12.594C30.479 12.1834 30.5857 11.7238 30.5857 11.2648V8.85126C30.5857 8.59261 30.3794 8.38291 30.1248 8.38291H25.6895C24.0767 8.38291 22.7645 9.71626 22.7645 11.3551V11.383C22.7645 11.7647 22.8533 12.1469 23.0213 12.4882L23.2573 12.968V13.7329C23.2573 14.9452 23.8453 16.033 24.7358 16.6876L24.7359 17.3642C24.7359 17.4686 24.7359 17.5118 24.3553 17.6223L23.4265 17.892L20.7397 16.8992C20.7493 16.7704 20.7065 16.6393 20.6141 16.5406L19.7555 15.624V14.0854C19.8463 14.0094 19.9357 13.9313 20.0224 13.8488C21.1056 12.8171 21.7267 11.3607 21.7267 9.85277V8.62396C22.0538 7.90077 22.2195 7.13549 22.2195 6.34736V1.33981C22.2195 1.08115 22.0132 0.87146 21.7586 0.87146H14.8592C12.4312 0.87146 10.4559 2.87873 10.4559 5.34591V6.34748C10.4559 7.13561 10.6216 7.90089 10.9487 8.62408V9.68135C10.9487 11.4321 11.7148 13.0094 12.9199 14.0492V15.6241L12.0614 16.5407C11.9689 16.6394 11.9261 16.7704 11.9357 16.8993L9.09995 17.947C8.89445 18.023 8.70351 18.1258 8.53014 18.2504L8.08485 18.0242C9.41041 17.4378 9.83033 16.6132 9.85049 16.5723C9.91538 16.4405 9.91538 16.2852 9.85049 16.1534C9.5182 15.4781 9.47795 14.2404 9.44563 13.2458C9.43487 12.9148 9.42467 12.602 9.40519 12.3234C9.24805 10.077 7.5674 8.38291 5.49578 8.38291C3.42417 8.38291 1.74346 10.077 1.58638 12.3234C1.5669 12.602 1.5567 12.9148 1.54594 13.246C1.51362 14.2404 1.4733 15.478 1.14108 16.1533C1.07619 16.2852 1.07619 16.4404 1.14108 16.5722C1.16124 16.6132 1.58029 17.4361 2.9085 18.0231L1.67162 18.6515C1.01037 18.9877 0.599609 19.6631 0.599609 20.4142V23.8743C0.599609 24.1329 0.805972 24.3426 1.06052 24.3426C1.31506 24.3426 1.52142 24.1329 1.52142 23.8743V20.4142C1.52142 20.0201 1.73694 19.6657 2.08385 19.4894L3.62408 18.7069L4.15983 19.2242C4.53446 19.586 5.01503 19.7668 5.49578 19.7668C5.97642 19.7668 6.45723 19.5859 6.83174 19.2242L7.36743 18.7069L7.86964 18.9621C7.63316 19.3466 7.49894 19.7974 7.49894 20.2697V23.8744C7.49894 24.1331 7.70531 24.3428 7.95985 24.3428C8.21439 24.3428 8.42076 24.1331 8.42076 23.8744V20.2697C8.42076 19.6268 8.82027 19.0471 9.41496 18.8274L12.4048 17.7227L13.6495 19.6198C13.8086 19.8624 14.0635 20.0179 14.349 20.0467C14.3808 20.0498 14.4125 20.0514 14.4441 20.0514C14.6959 20.0514 14.9371 19.9507 15.1174 19.7675L15.8767 18.9959V23.8745C15.8767 24.1331 16.0831 24.3428 16.3376 24.3428C16.5922 24.3428 16.7986 24.1331 16.7986 23.8745V18.9959L17.5579 19.7675C17.7381 19.9507 17.9793 20.0515 18.2312 20.0515C18.2628 20.0515 18.2945 20.0499 18.3262 20.0467C18.6118 20.018 18.8667 19.8624 19.0258 19.6199L20.2705 17.7228L23.2603 18.8275C23.855 19.0473 24.2545 19.6269 24.2545 20.2698V23.8745C24.2545 24.1332 24.4609 24.3429 24.7154 24.3429C24.97 24.3429 25.1764 24.1332 25.1764 23.8745V20.2698C25.1764 19.6187 24.9217 19.0079 24.4946 18.5563L24.6085 18.5232C24.7234 18.4899 24.8801 18.4442 25.0374 18.3659L26.2142 19.5616V23.8745C26.2142 24.1332 26.4206 24.3429 26.6751 24.3429C26.9296 24.3429 27.136 24.1332 27.136 23.8745V19.5616L28.3046 18.3742C28.3667 18.4063 28.432 18.4334 28.5007 18.4533L30.4043 19.0059C30.8388 19.1321 31.1423 19.5409 31.1423 20.0001V23.8745C31.1423 24.1332 31.3487 24.3429 31.6032 24.3429C31.8578 24.3429 32.0641 24.1332 32.0641 23.8745V20.0001C32.0641 19.1248 31.4857 18.3455 30.6576 18.105ZM3.55648 17.2778C2.69434 16.9626 2.26188 16.5423 2.07727 16.3128C2.20313 15.9785 2.28474 15.5956 2.33999 15.1913C2.59417 15.8106 3.01986 16.3393 3.55648 16.7165V17.2778ZM6.19685 18.5453C5.80373 18.9249 5.1879 18.9248 4.7949 18.5453L4.36626 18.1314C4.43859 17.9937 4.47835 17.8376 4.47835 17.674V17.1748C4.79988 17.2769 5.14169 17.332 5.49591 17.332C5.8497 17.332 6.19132 17.2767 6.5134 17.1751L6.51334 17.674C6.51334 17.8376 6.55304 17.9937 6.62543 18.1315L6.19685 18.5453ZM5.49603 16.3953C4.1197 16.3953 3.00007 15.2575 3.00007 13.8591C3.00007 13.6004 2.79371 13.3907 2.53916 13.3907C2.51335 13.3907 2.48816 13.3934 2.46351 13.3976C2.46487 13.3573 2.46616 13.317 2.46751 13.2771C2.47777 12.955 2.48767 12.6509 2.50592 12.39C2.56479 11.5484 2.89572 10.773 3.43775 10.2063C3.98463 9.63458 4.71556 9.31973 5.49591 9.31973C6.27625 9.31973 7.00713 9.63458 7.55407 10.2063C8.09609 10.773 8.42702 11.5484 8.4859 12.39C8.50409 12.6508 8.51404 12.9549 8.52449 13.2769C8.52541 13.3045 8.52633 13.3326 8.52726 13.3604C8.02579 12.5754 7.25135 11.9968 6.25069 11.6701C5.32623 11.3683 4.53114 11.3869 4.49758 11.3878C4.37689 11.3913 4.26234 11.4426 4.17858 11.5309L3.34698 12.4073C3.1703 12.5935 3.17558 12.89 3.35884 13.0695C3.5421 13.249 3.83388 13.2436 4.01056 13.0574L4.70253 12.3283C5.29846 12.3579 7.21564 12.5844 7.96126 14.2528C7.77364 15.4822 6.73372 16.3953 5.49603 16.3953ZM7.43509 17.2794L7.43515 16.7208C7.97134 16.3457 8.39765 15.818 8.65201 15.194C8.70726 15.5973 8.78881 15.9794 8.91442 16.3129C8.73085 16.5402 8.29637 16.9643 7.43509 17.2794ZM11.8705 9.68129V8.5193C11.8705 8.44879 11.8548 8.37917 11.8246 8.31566C11.5281 7.69157 11.3777 7.02939 11.3777 6.34748V5.34597C11.3777 3.39522 12.9395 1.80821 14.8592 1.80821H21.2977V6.34755C21.2977 7.02946 21.1474 7.69164 20.8508 8.31572C20.8206 8.37923 20.8049 8.44886 20.8049 8.51936V9.85289C20.8049 11.1212 20.3032 12.2977 19.392 13.1655C19.2783 13.2738 19.1602 13.3753 19.0382 13.4699C19.0355 13.4718 19.0329 13.4738 19.0303 13.4758C18.1767 14.1343 17.1313 14.4543 16.0395 14.3824C13.7017 14.2286 11.8705 12.1637 11.8705 9.68129ZM14.4656 19.1051C14.4624 19.1083 14.455 19.116 14.4399 19.1144C14.4249 19.1129 14.419 19.104 14.4165 19.1001L12.9831 16.9152L13.4444 16.4227L15.6189 17.9331L14.4656 19.1051ZM16.3377 17.2977L13.8417 15.5641V14.6898C14.4876 15.0446 15.2107 15.2665 15.9798 15.3171C16.1013 15.325 16.2221 15.329 16.3424 15.329C17.2238 15.329 18.0719 15.1149 18.8337 14.7086V15.5641L16.3377 17.2977ZM18.2589 19.1002C18.2564 19.1041 18.2505 19.113 18.2355 19.1145C18.2204 19.1165 18.213 19.1084 18.2098 19.1052L17.0565 17.9333L19.231 16.4228L19.6924 16.9154L18.2589 19.1002ZM26.6751 18.7051L25.6291 17.6423C25.6474 17.5581 25.6577 17.4658 25.6577 17.3641L25.6576 17.1665C25.9478 17.2632 26.2538 17.3207 26.5703 17.3303C26.6058 17.3314 26.6411 17.3319 26.6764 17.3319C27.0262 17.3319 27.3677 17.2782 27.6927 17.1758V17.3643C27.6927 17.4578 27.7042 17.5493 27.726 17.6373L26.6751 18.7051ZM28.4132 15.6793C27.9247 16.161 27.2794 16.4154 26.598 16.3941C25.2642 16.3534 24.1791 15.1596 24.1791 13.733V12.8575C24.1791 12.7847 24.1625 12.713 24.1305 12.648L23.8457 12.0694C23.7415 11.8574 23.6863 11.6201 23.6863 11.3831V11.3552C23.6863 10.2328 24.585 9.31967 25.6895 9.31967H29.6639V11.2649C29.6639 11.5792 29.5908 11.894 29.4525 12.1752L29.2198 12.648C29.1878 12.7131 29.1711 12.7847 29.1711 12.8575V13.859C29.1711 14.5509 28.902 15.1973 28.4132 15.6793Z"
+										fill="#556182"
+									/>
+									<path
+										d="M20.112 6.51705C18.3688 4.7457 14.7215 5.08434 13.2342 5.31215C12.7657 5.3839 12.4258 5.78674 12.4258 6.27001V7.34895C12.4258 7.6076 12.6321 7.8173 12.8867 7.8173C13.1412 7.8173 13.3476 7.6076 13.3476 7.34895V6.26995C13.3476 6.25402 13.3579 6.24041 13.3717 6.23829C13.9658 6.1473 15.1446 6.00692 16.366 6.08966C17.8033 6.18689 18.8444 6.55351 19.4602 7.17935C19.6402 7.36225 19.932 7.36225 20.112 7.17935C20.292 6.99644 20.292 6.69989 20.112 6.51705Z"
+										fill="#556182"
+									/>
+								</svg>
+								<span class="notification">20</span>
+								People</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								id="chat-tab"
+								data-toggle="tab"
+								href="#chat"
+								role="tab"
+								aria-controls="profile"
+								aria-selected="false"
+							>
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M19 13C19 13.5304 18.7893 14.0391 18.4142 14.4142C18.0391 14.7893 17.5304 15 17 15H5L1 19V3C1 2.46957 1.21071 1.96086 1.58579 1.58579C1.96086 1.21071 2.46957 1 3 1H17C17.5304 1 18.0391 1.21071 18.4142 1.58579C18.7893 1.96086 19 2.46957 19 3V13Z"
+										stroke="#d9692a"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Chat</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								id="settings-tab"
+								data-toggle="tab"
+								href="#settings"
+								role="tab"
+								aria-controls="contact"
+								aria-selected="false"
+							>
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+										stroke="#556182"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M19.4 15C19.2669 15.3016 19.2272 15.6362 19.286 15.9606C19.3448 16.285 19.4995 16.5843 19.73 16.82L19.79 16.88C19.976 17.0657 20.1235 17.2863 20.2241 17.5291C20.3248 17.7719 20.3766 18.0322 20.3766 18.295C20.3766 18.5578 20.3248 18.8181 20.2241 19.0609C20.1235 19.3037 19.976 19.5243 19.79 19.71C19.6043 19.896 19.3837 20.0435 19.1409 20.1441C18.8981 20.2448 18.6378 20.2966 18.375 20.2966C18.1122 20.2966 17.8519 20.2448 17.6091 20.1441C17.3663 20.0435 17.1457 19.896 16.96 19.71L16.9 19.65C16.6643 19.4195 16.365 19.2648 16.0406 19.206C15.7162 19.1472 15.3816 19.1869 15.08 19.32C14.7842 19.4468 14.532 19.6572 14.3543 19.9255C14.1766 20.1938 14.0813 20.5082 14.08 20.83V21C14.08 21.5304 13.8693 22.0391 13.4942 22.4142C13.1191 22.7893 12.6104 23 12.08 23C11.5496 23 11.0409 22.7893 10.6658 22.4142C10.2907 22.0391 10.08 21.5304 10.08 21V20.91C10.0723 20.579 9.96512 20.258 9.77251 19.9887C9.5799 19.7194 9.31074 19.5143 9 19.4C8.69838 19.2669 8.36381 19.2272 8.03941 19.286C7.71502 19.3448 7.41568 19.4995 7.18 19.73L7.12 19.79C6.93425 19.976 6.71368 20.1235 6.47088 20.2241C6.22808 20.3248 5.96783 20.3766 5.705 20.3766C5.44217 20.3766 5.18192 20.3248 4.93912 20.2241C4.69632 20.1235 4.47575 19.976 4.29 19.79C4.10405 19.6043 3.95653 19.3837 3.85588 19.1409C3.75523 18.8981 3.70343 18.6378 3.70343 18.375C3.70343 18.1122 3.75523 17.8519 3.85588 17.6091C3.95653 17.3663 4.10405 17.1457 4.29 16.96L4.35 16.9C4.58054 16.6643 4.73519 16.365 4.794 16.0406C4.85282 15.7162 4.81312 15.3816 4.68 15.08C4.55324 14.7842 4.34276 14.532 4.07447 14.3543C3.80618 14.1766 3.49179 14.0813 3.17 14.08H3C2.46957 14.08 1.96086 13.8693 1.58579 13.4942C1.21071 13.1191 1 12.6104 1 12.08C1 11.5496 1.21071 11.0409 1.58579 10.6658C1.96086 10.2907 2.46957 10.08 3 10.08H3.09C3.42099 10.0723 3.742 9.96512 4.0113 9.77251C4.28059 9.5799 4.48572 9.31074 4.6 9C4.73312 8.69838 4.77282 8.36381 4.714 8.03941C4.65519 7.71502 4.50054 7.41568 4.27 7.18L4.21 7.12C4.02405 6.93425 3.87653 6.71368 3.77588 6.47088C3.67523 6.22808 3.62343 5.96783 3.62343 5.705C3.62343 5.44217 3.67523 5.18192 3.77588 4.93912C3.87653 4.69632 4.02405 4.47575 4.21 4.29C4.39575 4.10405 4.61632 3.95653 4.85912 3.85588C5.10192 3.75523 5.36217 3.70343 5.625 3.70343C5.88783 3.70343 6.14808 3.75523 6.39088 3.85588C6.63368 3.95653 6.85425 4.10405 7.04 4.29L7.1 4.35C7.33568 4.58054 7.63502 4.73519 7.95941 4.794C8.28381 4.85282 8.61838 4.81312 8.92 4.68H9C9.29577 4.55324 9.54802 4.34276 9.72569 4.07447C9.90337 3.80618 9.99872 3.49179 10 3.17V3C10 2.46957 10.2107 1.96086 10.5858 1.58579C10.9609 1.21071 11.4696 1 12 1C12.5304 1 13.0391 1.21071 13.4142 1.58579C13.7893 1.96086 14 2.46957 14 3V3.09C14.0013 3.41179 14.0966 3.72618 14.2743 3.99447C14.452 4.26276 14.7042 4.47324 15 4.6C15.3016 4.73312 15.6362 4.77282 15.9606 4.714C16.285 4.65519 16.5843 4.50054 16.82 4.27L16.88 4.21C17.0657 4.02405 17.2863 3.87653 17.5291 3.77588C17.7719 3.67523 18.0322 3.62343 18.295 3.62343C18.5578 3.62343 18.8181 3.67523 19.0609 3.77588C19.3037 3.87653 19.5243 4.02405 19.71 4.21C19.896 4.39575 20.0435 4.61632 20.1441 4.85912C20.2448 5.10192 20.2966 5.36217 20.2966 5.625C20.2966 5.88783 20.2448 6.14808 20.1441 6.39088C20.0435 6.63368 19.896 6.85425 19.71 7.04L19.65 7.1C19.4195 7.33568 19.2648 7.63502 19.206 7.95941C19.1472 8.28381 19.1869 8.61838 19.32 8.92V9C19.4468 9.29577 19.6572 9.54802 19.9255 9.72569C20.1938 9.90337 20.5082 9.99872 20.83 10H21C21.5304 10 22.0391 10.2107 22.4142 10.5858C22.7893 10.9609 23 11.4696 23 12C23 12.5304 22.7893 13.0391 22.4142 13.4142C22.0391 13.7893 21.5304 14 21 14H20.91C20.5882 14.0013 20.2738 14.0966 20.0055 14.2743C19.7372 14.452 19.5268 14.7042 19.4 15V15Z"
+										stroke="#556182"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+
+								Settings</a
+							>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div
+							class="tab-pane fade "
+							id="people"
+							role="tabpanel"
+							aria-labelledby="people-tab"
+						>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsa!
+						</div>
+						<div class="tab-pane fade show active" id="chat" role="tabpanel" aria-labelledby="chat-tab">
+							<div class="group-chat__chatting-box">
+								<div class="group-chat__messenger">
+									<div class="group-chat__message group-chat__message--left">
+										<img src="img/chat-profile-1.png" alt="message">
+										<p>Hi Martin</p>
+									</div>
+
+									<div class="group-chat__message group-chat__message--left">
+										<img src="img/chat-profile-1.png" alt="message">
+										<p>Hi Martin</p>
+									</div>
+
+									<div class="group-chat__message group-chat__message--left">
+										<img src="img/chat-profile-2.png" alt="message">
+										<p>Hi Sarah</p>
+									</div>
+									
+									<div class="group-chat__message group-chat__message--right">
+										<img src="img/chat-profile-3.png" alt="message">
+										<p>Guys, i need some help with setting up new account for a member... </p>
+									</div>
+
+									<div class="group-chat__message group-chat__message--left">
+										<img src="img/chat-profile-4.png" alt="message">
+										<p>Sarah, I can’t hear, you are on Mute - please check</p>
+									</div>
+								</div>
+								<div class="group-chat__send-box">
+									<input type="text" class="group-chat__input" placeholder="Type here">
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsa!
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Main ends -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+
+		<!-- <script>
+			// Carousel autoplay false
+			$(".carousel").carousel({
+				interval: false,
+			});
+		</script> -->
+	</body>
+</html>

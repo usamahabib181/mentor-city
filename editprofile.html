@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Family Open Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" href="css/Select2-css/select2.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Mentor City</title>
+  </head>
+  <body>
+    <!-- Top bar starts -->
+    <header class="top-bar">
+      <div class="top-bar__logo">
+        <img src="img/main-logo.png" alt="main-logo" class="top-bar__img" />
+      </div>
+
+      <div class="top-bar__toggler">
+        <a href="#" class="top-bar__bars">
+          <img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+        </a>
+
+        <a href="#" class="top-bar__close">
+          <img
+            src="img/icons/topbar_icons/top-bar-close.svg"
+            alt="close-icon"
+          />
+        </a>
+      </div>
+
+      <div class="top-bar__side">
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-message.svg"
+            alt="message-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__notification">
+          <img
+            src="img/icons/topbar_icons/top-bar-notification.svg"
+            alt="notification-icon"
+            class="top-bar__icon"
+          />
+        </div>
+        <div class="top-bar__btn-box">
+          <a href="" class="button button--available">
+            <img
+              src="img/icons/topbar_icons/top-bar-available.svg"
+              alt="available-icon"
+              class="button__status"
+            />
+
+            <span>Available</span>
+          </a>
+          <div class="dropdown-box">
+            <p class="dropdown-box__title">Set Your Availablity</p>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-available.svg"
+                alt="available-icon"
+                class=""
+              />
+              Available <i class="fas fa-check"></i>
+            </div>
+            <div class="dropdown-box__state">
+              <img
+                src="img/icons/topbar_icons/top-bar-unavailable.svg"
+                alt="unavailable-icon"
+                class=""
+              />
+              Unavailable
+            </div>
+            <a href="" class="dropdown-box__settings">Advanced Settings</a>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile__avatar-box">
+            <img
+              src="img/icons/topbar_icons/top-bar-person.png"
+              alt="profile-avatar"
+              class="profile__avatar"
+            />
+          </div>
+          <div class="profile__desc">
+            <h4 class="profile__title">Martin Blum</h4>
+            <p class="profile__detail">Member</p>
+          </div>
+          <div class="profile__arrow">
+            <img
+              src="img/icons/down-arrow.svg"
+              alt="down-arrow-icon"
+              class="profile__arrow-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Top bar ends -->
+
+    <!-- Side bar starts -->
+    <aside class="side-bar">
+      <ul class="side-bar__list">
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link active">
+            <img
+              src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+              class="sidebar__link-icon"
+              alt="dashboard-icon"
+            />
+            Dashboard
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-connection.svg"
+              class="sidebar__link-icon"
+              alt="connection-icon"
+            />
+            Connections
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentors.svg"
+              class="sidebar__link-icon"
+              alt="mentors-icon"
+            />
+            Mentors
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-mentees.svg"
+              class="sidebar__link-icon"
+              alt="mentee-icon"
+            />
+            Mentees
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-group.svg"
+              class="sidebar__link-icon"
+              alt="gorup-icon"
+            />
+            Groups
+          </a>
+        </li>
+        <li class="side-bar__item">
+          <a href="#" class="side-bar__link">
+            <img
+              src="img/icons/sidebar_icons/sidebar-awards.svg"
+              class="sidebar__link-icon"
+              alt="awadr-icon"
+            />
+            Awards
+          </a>
+        </li>
+      </ul>
+
+      <div class="side-bar__bottom">
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-courses.svg"
+                class="sidebar__link-icon"
+                alt="course-icon"
+              />
+              Courses
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-events.svg"
+                class="sidebar__link-icon"
+                alt="event-icon"
+              />
+              Events
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-resources.svg"
+                class="sidebar__link-icon"
+                alt="resource-icon"
+              />
+              Resources
+            </a>
+          </li>
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-discussion.svg"
+                class="sidebar__link-icon"
+                alt="discussion-icon"
+              />
+              Discussions
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link side-bar__link--app">
+              <img
+                src="img/icons/sidebar_icons/sidebar-phone.svg"
+                class="sidebar__link-icon"
+                alt="access-conn-icon"
+              />
+              Access Connections
+              <span>Get the app</span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-bar__list">
+          <li class="side-bar__item">
+            <a href="#" class="side-bar__link">
+              <img
+                src="img/icons/sidebar_icons/sidebar-helpline.svg"
+                class="sidebar__link-icon"
+                alt="helpline-icon"
+              />
+              Helpline
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Side bar ends -->
+
+    <!-- Main starts -->
+    <main class="main">
+      <div class="main__aside"></div>
+      <section class="main__primary">
+        <div class="editprofile">
+          <div class="editprofile__header">
+            <a href="#" class="editprofile__dashboard">Dashboard </a>
+            <span class="editprofile__seprator">/</span>
+            <a href="#" class="editprofile__edit">Edit Profile</a>
+          </div>
+
+          <div class="editprofile__back">
+            <a href="#" class="back-button">< Back</a>
+          </div>
+
+          <div class="editprofile__progress">
+            <div class="editprofile__title">
+              <p>Profile 20% Complete</p>
+              <figure>
+                <img src="./img/icons/question-mark.svg" alt="" />
+              </figure>
+            </div>
+
+            <div class="editprofile__progress-bar">
+              <div class="editprofile__progress-bar-tile progress-active"></div>
+              <div class="editprofile__progress-bar-tile progress-active"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+              <div class="editprofile__progress-bar-tile"></div>
+            </div>
+          </div>
+
+          <div class="editprofile__container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+                <div class="editprofile__sidebar">
+                  <!-- Profile image -->
+                  <div class="editprofile__userimage">
+                    <figure>
+                      <a href="#" class="editprofile__edit-avatar"
+                        ><img
+                          src="./img/icons/profile-edit-icon.svg"
+                          class="profile-edit-icon"
+                          alt=""
+                      /></a>
+                      <img
+                        src="./img/form-avatar.png"
+                        class="editprofile__avatar"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+
+                  <!-- Side tabs -->
+                  <div class="editprofile__navigation">
+                    <ul
+                      class="nav nav-tabs editprofile__menu"
+                      id="myTab"
+                      role="tablist"
+                    >
+                      <li class="nav-item editprofile__menu-item">
+                        <a
+                          class="nav-link active"
+                          id="home-tab"
+                          data-toggle="tab"
+                          href="#profile"
+                          role="tab"
+                          aria-controls="home"
+                          aria-selected="true"
+                          >Profile</a
+                        >
+                      </li>
+                      <li class="nav-item editprofile__menu-item">
+                        <a
+                          class="nav-link"
+                          id="profile-tab"
+                          data-toggle="tab"
+                          href="#employment"
+                          role="tab"
+                          aria-controls="profile"
+                          aria-selected="false"
+                          >Employment</a
+                        >
+                      </li>
+                      <li class="nav-item editprofile__menu-item">
+                        <a
+                          class="nav-link"
+                          id="contact-tab"
+                          data-toggle="tab"
+                          href="#achievements"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >Achievements</a
+                        >
+                      </li>
+
+                      <li class="nav-item editprofile__menu-item">
+                        <a
+                          class="nav-link"
+                          id="contact-tab"
+                          data-toggle="tab"
+                          href="#skills"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >Skills</a
+                        >
+                      </li>
+                      <li class="nav-item editprofile__menu-item">
+                        <a
+                          class="nav-link"
+                          id="contact-tab"
+                          data-toggle="tab"
+                          href="#competencies"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >Competencies</a
+                        >
+                      </li>
+                      <li class="nav-item editprofile__menu-item">
+                        <a
+                          class="nav-link"
+                          id="contact-tab"
+                          data-toggle="tab"
+                          href="#account-settings"
+                          role="tab"
+                          aria-controls="contact"
+                          aria-selected="false"
+                          >Account Settings</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                <!-- Right tabs -->
+                <div class="editprofile__setting">
+                  <div class="tab-content" id="myTabContent">
+                    <div
+                      class="tab-pane setting__tabs fade show active"
+                      id="profile"
+                      role="tabpanel"
+                      aria-labelledby="home-tab"
+                    >
+                      <h5 class="setting__tabs-title">Profile Settings</h5>
+                      <ul
+                        class="nav nav-tabs setting__tabs-menu"
+                        id="myTab"
+                        role="tablist"
+                      >
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link active"
+                            id="home-tab"
+                            data-toggle="tab"
+                            href="#basic"
+                            role="tab"
+                            aria-controls="home"
+                            aria-selected="true"
+                            >Basic</a
+                          >
+                        </li>
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link"
+                            id="profile-tab"
+                            data-toggle="tab"
+                            href="#communication"
+                            role="tab"
+                            aria-controls="profile"
+                            aria-selected="false"
+                            >Communication</a
+                          >
+                        </li>
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link"
+                            id="contact-tab"
+                            data-toggle="tab"
+                            href="#mentoring-role"
+                            role="tab"
+                            aria-controls="contact"
+                            aria-selected="false"
+                            >Mentoring Role</a
+                          >
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div
+                          class="tab-pane fade show active"
+                          id="basic"
+                          role="tabpanel"
+                          aria-labelledby="home-tab"
+                        >
+                          <div class="basic regular-tab">
+                            <div class="row align-items-center">
+                              <div class="col-md-12 col-lg-12 col-xl-6">
+                                <form action="" class="regular-tab__form">
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Display Name
+                                    </label>
+                                    <input
+                                      type="text"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      First Name
+                                    </label>
+                                    <input
+                                      type="text"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Country
+                                    </label>
+                                    <select class="regular-tab__select">
+                                      <option value="canada">Canada</option>
+                                      <option value="united-kingdom">
+                                        United Kingdom
+                                      </option>
+                                      <option value="united-states">
+                                        United States
+                                      </option>
+                                    </select>
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      City
+                                    </label>
+                                    <select class="regular-tab__select">
+                                      <option value="toronto">Toronto</option>
+                                      <option value="los-angeles">
+                                        Los Angeles
+                                      </option>
+                                      <option value="new-york">New York</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="col-md-12 col-lg-12 col-xl-6">
+                                <form action="" class="regular-tab__form">
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Last Name
+                                    </label>
+                                    <input
+                                      type="text"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      City
+                                    </label>
+                                    <select class="regular-tab__select">
+                                      <option value="toronto">Toronto</option>
+                                      <option value="los-angeles">
+                                        Los Angeles
+                                      </option>
+                                      <option value="new-york">New York</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                            <div class="regular-tab__button-box">
+                              <input type="button" value="Save"
+                              class="button button--blue edit-profile-btn"
+                            />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="communication"
+                          role="tabpanel"
+                          aria-labelledby="profile-tab"
+                        >
+                          <div class="communication regular-tab">
+                            <div class="row align-items-center">
+                              <div class="col-md-8">
+                                <form action="" class="regular-tab__form">
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Skype
+                                    </label>
+                                    <input
+                                      type="text"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Google Hangouts
+                                    </label>
+                                    <input
+                                      type="text"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Zoom
+                                    </label>
+                                    <input
+                                      type="text"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="col-md-4"></div>
+                              
+                            </div>
+                            <div class="regular-tab__button-box">
+                              <input type="button" value="Save"
+                              class="button button--blue edit-profile-btn"
+                            />
+                            
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="mentoring-role"
+                          role="tabpanel"
+                          aria-labelledby="contact-tab"
+                        >
+                          <p>mentoring-role</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="employment"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      <p>employment</p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="achievements"
+                      role="tabpanel"
+                      aria-labelledby="contact-tab"
+                    >
+                      <p>achievements</p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="achievements"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      <p>Achievments</p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="skills"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      <h5 class="setting__tabs-title">Skills</h5>
+                      <ul
+                        class="nav nav-tabs setting__tabs-menu"
+                        id="myTab"
+                        role="tablist"
+                      >
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link active"
+                            id="home-tab"
+                            data-toggle="tab"
+                            href="#specialized"
+                            role="tab"
+                            aria-controls="home"
+                            aria-selected="true"
+                            >Specialized</a
+                          >
+                        </li>
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link"
+                            id="profile-tab"
+                            data-toggle="tab"
+                            href="#development_Areas"
+                            role="tab"
+                            aria-controls="profile"
+                            aria-selected="false"
+                            >Development Areas</a
+                          >
+                        </li>
+                      </ul>
+
+                      <div class="tab-content" id="myTabContent">
+                        <div
+                          class="tab-pane fade show active"
+                          id="specialized"
+                          role="tabpanel"
+                          aria-labelledby="home-tab"
+                        >
+                          <div class="basic regular-tab">
+                            <div class="row align-items-center">
+                              <div
+                                class="col-md-12 col-lg-12 col-xl-6 specialized"
+                              >
+                                <form action="" class="regular-tab__form">
+                                  <div class="regular-tab__group">
+                                    <select class="regular-tab__select--multiple select-js" multiple="multiple">
+                                      <option value="Industry">Industry</option>
+                                      <option value="option-1">option 1</option>
+                                      <option value="option-2">option 2</option>
+                                      <option value="option-2">option 3</option>
+                                    </select>
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <select class="regular-tab__select--multiple select-js" multiple="multiple">
+                                      <option value="Language">Language</option>
+                                      <option value="option-3">option 3</option>
+                                      <option value="option-4">option 4</option>
+                                      </option>
+                                    </select>
+                                   
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="col-md-12 col-lg-12 col-xl-6"></div>
+                            </div>
+                            <div class="regular-tab__button-box">
+                              <input type="button" value="Save"
+                              class="button button--blue edit-profile-btn"
+                            />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="development_Areas"
+                          role="tabpanel"
+                          aria-labelledby="profile-tab"
+                        ></div>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="competencies"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      <p>Competencies</p>
+                    </div>
+
+                    <div
+                      class="tab-pane fade"
+                      id="account-settings"
+                      role="tabpanel"
+                      aria-labelledby="profile-tab"
+                    >
+                      <h5 class="setting__tabs-title">Account Settings</h5>
+
+                      <ul
+                        class="nav nav-tabs setting__tabs-menu"
+                        id="myTab"
+                        role="tablist"
+                      >
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link active"
+                            id="home-tab"
+                            data-toggle="tab"
+                            href="#account"
+                            role="tab"
+                            aria-controls="home"
+                            aria-selected="true"
+                            >Account</a
+                          >
+                        </li>
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link"
+                            id="profile-tab"
+                            data-toggle="tab"
+                            href="#language"
+                            role="tab"
+                            aria-controls="profile"
+                            aria-selected="false"
+                            >Language</a
+                          >
+                        </li>
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link"
+                            id="contact-tab"
+                            data-toggle="tab"
+                            href="#notification"
+                            role="tab"
+                            aria-controls="contact"
+                            aria-selected="false"
+                            >Notification</a
+                          >
+                        </li>
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link"
+                            id="contact-tab"
+                            data-toggle="tab"
+                            href="#google-integration"
+                            role="tab"
+                            aria-controls="contact"
+                            aria-selected="false"
+                            >Google Integration</a
+                          >
+                        </li>
+                        <li class="nav-item setting__tabs-item">
+                          <a
+                            class="nav-link setting__tabs-link"
+                            id="contact-tab"
+                            data-toggle="tab"
+                            href="#outlook-integration"
+                            role="tab"
+                            aria-controls="contact"
+                            aria-selected="false"
+                            >Outlook Integration</a
+                          >
+                        </li>
+                      </ul>
+
+                      <div class="tab-content" id="myTabContent">
+                        <div
+                          class="tab-pane fade active show"
+                          id="account"
+                          role="tabpanel"
+                          aria-labelledby="home-tab"
+                        >
+                          <div class="account-settings regular-tab">
+                            <div class="row align-items-center">
+                              <div class="col-md-12 col-lg-12 col-xl-8">
+                                <form action="" class="regular-tab__form">
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Email
+                                    </label>
+                                    <input
+                                      type="text"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                  <div class="regular-tab__group">
+                                    <label for="name" class="regular-tab__label">
+                                      Password
+                                    </label>
+                                    <input
+                                      type="password"
+                                      class="regular-tab__input"
+                                    />
+                                  </div>
+                                </form>
+                                <div
+                                  class="account-settings__deactive-box"
+                                >
+                                  <div class="account-settings__deactive">
+                                    Deactivate Account
+                                  </div>
+                                  <div class="account-settings__row">
+                                    <p>
+                                      If you delete your account, your data will
+                                      be gone forever.
+                                    </p>
+                                    <a href="#">Delete my account</a>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="regular-tab__button-box">
+                              <input type="button" value="Save"
+                              class="button button--blue edit-profile-btn"
+                            />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="language"
+                          role="tabpanel"
+                          aria-labelledby="profile-tab"
+                        >
+                          <div class="language regular-tab">
+                            <div class="row align-items-center">
+                              <div class="col-md-8 col-lg-7">
+                                <div class="regular-tab__group">
+                                  <label for="name" class="regular-tab__label">
+                                    Language
+                                  </label>
+                                  <select class="regular-tab__select">
+                                    <option value="canada">English</option>
+                                    <option value="united-kingdom">
+                                      United Kingdom
+                                    </option>
+                                    <option value="united-states">
+                                      United States
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-4"></div>
+                            </div>
+                            <div class="regular-tab__button-box">
+                              <input type="button" value="Save"
+                              class="button button--blue edit-profile-btn"
+                            />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="notification"
+                          role="tabpanel"
+                          aria-labelledby="contact-tab"
+                        >
+                          <p>Notification</p>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="google-integration"
+                          role="tabpanel"
+                          aria-labelledby="contact-tab"
+                        >
+                          <p>Google Integration</p>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="outlook-integration"
+                          role="tabpanel"
+                          aria-labelledby="contact-tab"
+                        >
+                          <p>outlook-integration</p>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="mentoring-role"
+                          role="tabpanel"
+                          aria-labelledby="contact-tab"
+                        >
+                          <p>mentoring-role</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Main ends -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+				$(".select-js").select2();
+			});
+    </script>
+  </body>
+</html>

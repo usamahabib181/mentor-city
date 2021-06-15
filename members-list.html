@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Font Family Open Sans -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome Css -->
+		<link rel="stylesheet" href="css/font-awesome/css/all.css" />
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Mentor City</title>
+	</head>
+	<body>
+		<!-- Top bar starts -->
+		<header class="top-bar">
+			<div class="top-bar__logo top-bar__logo--admin">
+				<img src="img/admin-logo.png" alt="main-logo" class="top-bar__img top-bar__img--admin" />
+			</div>
+
+			<div class="top-bar__toggler">
+				<a href="#" class="top-bar__bars">
+					<img src="img/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+				</a>
+
+				<a href="#" class="top-bar__close">
+					<img src="img/icons/topbar_icons/top-bar-close.svg" alt="close-icon" />
+				</a>
+			</div>
+
+			<div class="top-bar__side">
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-message.svg"
+						alt="message-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__notification">
+					<img
+						src="img/icons/topbar_icons/top-bar-notification.svg"
+						alt="notification-icon"
+						class="top-bar__icon"
+					/>
+				</div>
+				<div class="top-bar__btn-box">
+					<a href="" class="button button--available">
+						<img
+							src="img/icons/topbar_icons/top-bar-available.svg"
+							alt="available-icon"
+							class="button__status"
+						/>
+
+						<span>Available</span>
+					</a>
+					<div class="dropdown-box">
+						<p class="dropdown-box__title">Set Your Availablity</p>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-available.svg"
+								alt="available-icon"
+								class=""
+							/>
+							Available <i class="fas fa-check"></i>
+						</div>
+						<div class="dropdown-box__state">
+							<img
+								src="img/icons/topbar_icons/top-bar-unavailable.svg"
+								alt="unavailable-icon"
+								class=""
+							/>
+							Unavailable
+						</div>
+						<a href="" class="dropdown-box__settings">Advanced Settings</a>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__avatar-box">
+						<img src="img/admin-avatar.png" alt="profile-avatar" class="profile__avatar" />
+					</div>
+					<div class="profile__desc">
+						<h4 class="profile__title">Maria Kahn</h4>
+						<p class="profile__detail">Admin</p>
+					</div>
+					<div class="profile__arrow">
+						<img src="img/icons/down-arrow.svg" alt="down-arrow-icon" class="profile__arrow-icon" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Top bar ends -->
+
+		<!-- Side bar starts -->
+		<aside class="side-bar">
+			<ul class="side-bar__list">
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-dashboad.svg"
+							class="sidebar__link-icon"
+							alt="dashboard-icon"
+						/>
+						Dashboard
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-connection.svg"
+							class="sidebar__link-icon"
+							alt="connection-icon"
+						/>
+						Connections
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentors.svg"
+							class="sidebar__link-icon"
+							alt="mentors-icon"
+						/>
+						Mentors
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-mentees.svg"
+							class="sidebar__link-icon"
+							alt="mentee-icon"
+						/>
+						Mentees
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link">
+						<img
+							src="img/icons/sidebar_icons/sidebar-group.svg"
+							class="sidebar__link-icon"
+							alt="gorup-icon"
+						/>
+						Groups
+					</a>
+				</li>
+				<li class="side-bar__item">
+					<a href="#" class="side-bar__link active">
+						<img
+							src="img/icons/sidebar_icons/sidebar-member.svg"
+							class="sidebar__link-icon"
+							alt="awadr-icon"
+						/>
+						Members
+					</a>
+				</li>
+			</ul>
+
+			<div class="side-bar__bottom">
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-courses.svg"
+								class="sidebar__link-icon"
+								alt="course-icon"
+							/>
+							Courses
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-events.svg"
+								class="sidebar__link-icon"
+								alt="event-icon"
+							/>
+							Events
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-resources.svg"
+								class="sidebar__link-icon"
+								alt="resource-icon"
+							/>
+							Resources
+						</a>
+					</li>
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-discussion.svg"
+								class="sidebar__link-icon"
+								alt="discussion-icon"
+							/>
+							Discussions
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link side-bar__link--app">
+							<img
+								src="img/icons/sidebar_icons/sidebar-phone.svg"
+								class="sidebar__link-icon"
+								alt="access-conn-icon"
+							/>
+							Access Connections
+							<span>Get the app</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="side-bar__list">
+					<li class="side-bar__item">
+						<a href="#" class="side-bar__link">
+							<img
+								src="img/icons/sidebar_icons/sidebar-helpline.svg"
+								class="sidebar__link-icon"
+								alt="helpline-icon"
+							/>
+							Helpline
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<!-- Side bar ends -->
+
+		<!-- Main starts -->
+		<main class="main">
+			<div class="main__aside"></div>
+			<section class="main__primary">
+				<div class="members">
+					<div class="forward-list">
+						<a href="#">Dashboard</a>
+						<span>/</span>
+						<a href="#">Matching Members</a>
+					</div>
+
+					<div class="members-card">
+						<h3 class="members-card__title">Matching Members</h3>
+						<div class="row">
+							<div class="col-sm-8 col-lg-10">
+								<div class="members-card__input-box">
+									<form class="search-input">
+										<img src="img/icons/icon-search.svg" class="search-input__icon" alt="" />
+										<input type="text" class="search-input__input" />
+									</form>
+									<input type="button" value="Search" href="#" class="button button--blue"/>
+								</div>
+							</div>
+							<div class="col-sm-4 col-lg-2">
+								<div
+									class="members-card__filter d-flex justify-content-center justify-content-md-end"
+								>
+									<a href="#" class="button button--filter">
+										<img src="img/icons/admin/admin-filter-btn.svg" alt="" />
+										Advance Filter</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Specialized Skills" class="members-card__input" />
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Industry" class="members-card__input" />
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Job Function" class="members-card__input" />
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="members-card__input-box">
+									<input type="text" placeholder="Languages" class="members-card__input" />
+								</div>
+							</div>
+						</div>
+
+						<div class="members-card__footer">
+							<a href="#">Clear Filters</a>
+						</div>
+					</div>
+
+					<div class="allmembers-card">
+						<div class="allmembers-card__header">
+							<h3 class="allmembers-card__title">All Members</h3>
+							<div class="allmembers-card__sort">
+								<a href="#" class="allmembers-card__sort-btn">
+									<img src="img/icons/sort.svg" alt="" />
+									sort
+								</a>
+							</div>
+						</div>
+
+						<div class="allmembers-card__rows">
+							<div class="allmembers-card__row-header">
+								<div class="row">
+									<div class="col-xl-3">
+										<div class="allmembers-card__row-title">Name</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__row-title">Matched with</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__row-title">Status</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__row-title">Compatibility</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__row-title">Action</div>
+									</div>
+									<div class="col-xl-1"></div>
+								</div>
+							</div>
+							<div class="allmembers-card__list">
+								<div class="row align-items-center">
+									<div class="col-xl-3">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-1.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Saraha Mueller</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-2.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Kim Fischer</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__details">
+											<h5>Stage 2</h5>
+											<p>Member since 26.08.2014</p>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__percentage--green">80%</div>
+									</div>
+									<div class="col-xl-3">
+										<div class="allmembers-card__button">
+											<a href="#" class="button button--blue mr-5">Matched</a>
+											<a href="#">
+												<img src="img/icons/more.svg" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="row align-items-center">
+									<div class="col-xl-3">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-3.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Sven Korb</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-4.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Martin Burk</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__details">
+											<h5>Stage 1</h5>
+											<p>Member since 26.08.2014</p>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__percentage--red">50%</div>
+									</div>
+									<div class="col-xl-3">
+										<div class="allmembers-card__button">
+											<a href="#" class="button button--blue mr-5">Matched</a>
+											<a href="#">
+												<img src="img/icons/more.svg" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="row align-items-center">
+									<div class="col-xl-3">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-5.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Mishi Khan</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2"></div>
+									<div class="col-xl-2"></div>
+									<div class="col-xl-2"></div>
+									<div class="col-xl-3">
+										<div class="allmembers-card__button">
+											<a href="#" class="button button--blue mr-5">Matched</a>
+											<a href="#">
+												<img src="img/icons/more.svg" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="row align-items-center">
+									<div class="col-xl-3">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-6.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Sam Otto</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-7.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Millaine Supi</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__details">
+											<h5>Stage 3</h5>
+											<p>Member since 26.08.2014</p>
+										</div>
+									</div>
+									<div class="col-xl-2">
+										<div class="allmembers-card__percentage--green">70%</div>
+									</div>
+									<div class="col-xl-3">
+										<div class="allmembers-card__button">
+											<a href="#" class="button button--blue mr-5">Matched</a>
+											<a href="#">
+												<img src="img/icons/more.svg" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="row align-items-center">
+									<div class="col-xl-3">
+										<div class="allmembers-card__avatar">
+											<figure>
+												<img src="img/chat-profile-1.png" alt="" />
+											</figure>
+											<div class="allmembers-card__details">
+												<h5>Minni herich</h5>
+												<p>Member since 26.08.2014</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-2"></div>
+									<div class="col-xl-2"></div>
+									<div class="col-xl-2"></div>
+									<div class="col-xl-3">
+										<div class="allmembers-card__button">
+											<a href="#" class="button button--blue mr-5">Matched</a>
+											<a href="#">
+												<img src="img/icons/more.svg" alt="" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="allmembers-card__row-footer">
+								<div class="allmembers-card__pages">
+									<p>Rows per page:</p>
+									<select>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3" selected>3</option>
+									</select>
+								</div>
+								<div class="allmembers-card__total-pages">
+									<p>1 - 3 of 10</p>
+									<div class="allmembers-card__nav">
+										<i class="fas fa-chevron-left"></i>
+										<i class="fas fa-chevron-right"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Main ends -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,297 @@
+.events {
+  &__sidebar {
+    @include card-style;
+    padding: 2rem;
+    min-height: 44rem;
+
+    @media only screen and(max-width:768px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__container {
+    display: flex;
+    margin-top: 3rem;
+
+    @media only screen and(max-width:768px) {
+      flex-direction: column !important;
+    }
+
+    // @media only screen and(max-width:1024px) {
+    //   // flex-direction: row !important;
+    // }
+  }
+
+  &__main {
+    @include card-style;
+  }
+
+  &__primary {
+  }
+
+  &__header {
+    padding-left: 1.5rem;
+
+    span {
+      font-size: 1.5rem;
+      color: $brown;
+    }
+  }
+
+  &__tile-1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4282d9;
+  }
+
+  &__tile-2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #4282d9;
+  }
+
+  &__tile-3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $light-gray;
+  }
+
+  &__events__title-1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #313e61;
+  }
+
+  &__date-time {
+    color: #313e61;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 1rem 0;
+  }
+
+  &__add-calender {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: $blue;
+  }
+
+  &__secondary {
+    margin-top: 4rem;
+  }
+
+  &__title-2 {
+    color: #1e0a3c;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__address {
+    color: #313e61;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 1rem 0;
+  }
+
+  &__view-map {
+    color: $blue;
+    font-size: 1.4rem;
+    font-weight: normal;
+  }
+
+  &__tertiary {
+    margin-top: 3.5rem;
+  }
+
+  &__title-3 {
+    color: #1e0a3c;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__free-tile {
+    color: $brown;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &__foter {
+    margin-top: 4rem;
+  }
+
+  &__register {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 0.5rem 3rem;
+
+    @media only screen and(max-width:1024px) {
+      padding: 0.5rem 0.7rem !important;
+    }
+
+    @media only screen and(max-width:768px) {
+      padding: 0.5rem 2.5rem !important;
+    }
+
+    @media only screen and(max-width:1260px) {
+      font-size: 1.4rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  &__main {
+    padding: 2rem;
+    min-height: 44rem;
+  }
+
+  &__primary-tile-1 {
+    font-weight: 700;
+    color: $light-gray;
+    font-size: 2rem;
+  }
+
+  &__primary-tile-2 {
+    font-size: 1.4rem;
+    color: #6f7287;
+    font-weight: normal;
+    margin-top: 1rem;
+  }
+
+  &__primary-tile-3 {
+    font-weight: 600;
+    color: $light-gray;
+    font-size: 1.6rem;
+    margin: 2rem 0 2.5rem 0;
+    display: block;
+  }
+
+  &__program-secondary {
+  }
+
+  &__secondary-tile-1 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #313e61;
+    margin: 2rem 0;
+  }
+
+  &__secondary-tile-2 {
+    font-size: 1.5rem;
+    color: #6f7287;
+    font-weight: normal;
+  }
+
+  &__program-tertiary {
+  }
+
+  &__tertiary-tile-1 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #313e61;
+    margin-top: 4rem;
+  }
+
+  &__tertiary-tile-2 {
+    font-size: 1.5rem;
+    color: #6f7287;
+    font-weight: normal;
+    margin-top: 2rem;
+  }
+}
+
+.upcoming .box-tabs li {
+  max-width: 13rem;
+  width: 100%;
+  text-align: center;
+}
+
+.event-upcoming {
+  margin-top: 3rem;
+  &__cards {
+  }
+
+  &__card {
+    @include card-style;
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  &__date-box {
+    max-width: 18rem;
+    width: 100%;
+    background: #e28086;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__day {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+
+  &__date {
+    font-weight: 500;
+    font-size: 4.8rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__month {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+
+  &__card-desc {
+    padding: 1.5rem;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: $light-gray;
+  }
+
+  &__content {
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: $light-gray;
+    margin-top: 1rem;
+  }
+
+  &__readmore {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+    p {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: $light-gray;
+    }
+
+    a {
+      font-weight: normal;
+      font-size: 1.6rem;
+      color: $blue;
+    }
+  }
+  &__card-bg-1 {
+    background-color: #2d9cdb;
+  }
+  &__card-bg-2 {
+    background-color: $light-gray;
+  }
+}
+
+.event-booked {
+  &__bg {
+    background: #b8c1d9;
+  }
+}
